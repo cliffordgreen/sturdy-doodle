@@ -1,0 +1,775 @@
+{
+    "page_1": {
+        "fields": [
+            {
+                "field_name": "NameOfProprietor",
+                "field_type": "text_input",
+                "label_text": "Name of proprietor",
+                "line_number": null,
+                "section_name": null,
+                "description": null,
+                "location_hint": "Top left, below form title"
+            },
+            {
+                "field_name": "SSN",
+                "field_type": "ssn_input",
+                "label_text": "Social security number (SSN)",
+                "line_number": null,
+                "section_name": null,
+                "description": null,
+                "location_hint": "Top right, below form title"
+            },
+            {
+                "field_name": "PrincipalBusinessOrProfession",
+                "field_type": "text_input",
+                "label_text": "Principal business or profession, including product or service (see instructions)",
+                "line_number": null,
+                "section_name": null,
+                "description": null,
+                "location_hint": "Section A, left side"
+            },
+            {
+                "field_name": "EnterCodeFromInstructions",
+                "field_type": "text_input",
+                "label_text": "Enter code from instructions",
+                "line_number": null,
+                "section_name": null,
+                "description": null,
+                "location_hint": "Section B, right side"
+            },
+            {
+                "field_name": "BusinessName",
+                "field_type": "text_input",
+                "label_text": "Business name. If no separate business name, leave blank.",
+                "line_number": null,
+                "section_name": null,
+                "description": null,
+                "location_hint": "Section C, left side"
+            },
+            {
+                "field_name": "EmployerIdNumber",
+                "field_type": "text_input",
+                "label_text": "Employer ID number (EIN) (see instr.)",
+                "line_number": null,
+                "section_name": null,
+                "description": null,
+                "location_hint": "Section D, right side"
+            },
+            {
+                "field_name": "BusinessAddress",
+                "field_type": "text_input",
+                "label_text": "Business address (including suite or room no.)",
+                "line_number": null,
+                "section_name": null,
+                "description": null,
+                "location_hint": "Section E, left side"
+            },
+            {
+                "field_name": "CityTownOrPostOfficeStateAndZIPCode",
+                "field_type": "text_input",
+                "label_text": "City, town or post office, state, and ZIP code",
+                "line_number": null,
+                "section_name": null,
+                "description": null,
+                "location_hint": "Section E, left side, below business address"
+            },
+            {
+                "field_name": "AccountingMethodCash",
+                "field_type": "checkbox",
+                "label_text": "(1) Cash",
+                "line_number": null,
+                "section_name": null,
+                "description": null,
+                "location_hint": "Section F, left side"
+            },
+            {
+                "field_name": "AccountingMethodAccrual",
+                "field_type": "checkbox",
+                "label_text": "(2) Accrual",
+                "line_number": null,
+                "section_name": null,
+                "description": null,
+                "location_hint": "Section F, left side, next to Cash checkbox"
+            },
+            {
+                "field_name": "AccountingMethodOther",
+                "field_type": "checkbox",
+                "label_text": "(3) Other (specify)",
+                "line_number": null,
+                "section_name": null,
+                "description": null,
+                "location_hint": "Section F, left side, next to Accrual checkbox"
+            },
+            {
+                "field_name": "AccountingMethodOtherSpecify",
+                "field_type": "text_input",
+                "label_text": null,
+                "line_number": null,
+                "section_name": null,
+                "description": "Specify other accounting method",
+                "location_hint": "next to 'Other' checkbox in Accounting Method Section F"
+            },
+            {
+                "field_name": "MateriallyParticipateYes",
+                "field_type": "radio_button",
+                "label_text": "Yes",
+                "line_number": null,
+                "section_name": null,
+                "description": null,
+                "location_hint": "Section G, right side"
+            },
+            {
+                "field_name": "MateriallyParticipateNo",
+                "field_type": "radio_button",
+                "label_text": "No",
+                "line_number": null,
+                "section_name": null,
+                "description": null,
+                "location_hint": "Section G, right side, next to Yes radio button"
+            },
+            {
+                "field_name": "StartedOrAcquiredBusiness",
+                "field_type": "checkbox",
+                "label_text": "If you started or acquired this business during 2024, check here",
+                "line_number": null,
+                "section_name": null,
+                "description": null,
+                "location_hint": "Section H, left side"
+            },
+            {
+                "field_name": "PaymentsRequiringForm1099Yes",
+                "field_type": "radio_button",
+                "label_text": "Yes",
+                "line_number": null,
+                "section_name": null,
+                "description": null,
+                "location_hint": "Section I, right side"
+            },
+            {
+                "field_name": "PaymentsRequiringForm1099No",
+                "field_type": "radio_button",
+                "label_text": "No",
+                "line_number": null,
+                "section_name": null,
+                "description": null,
+                "location_hint": "Section I, right side, next to Yes radio button"
+            },
+            {
+                "field_name": "FileRequiredForm1099Yes",
+                "field_type": "radio_button",
+                "label_text": "Yes",
+                "line_number": null,
+                "section_name": null,
+                "description": null,
+                "location_hint": "Section J, right side"
+            },
+            {
+                "field_name": "FileRequiredForm1099No",
+                "field_type": "radio_button",
+                "label_text": "No",
+                "line_number": null,
+                "section_name": null,
+                "description": null,
+                "location_hint": "Section J, right side, next to Yes radio button"
+            },
+            {
+                "field_name": "GrossReceiptsOrSales",
+                "field_type": "numeric_input",
+                "label_text": "Gross receipts or sales. See instructions for line 1 and check the box if this income was reported to you on\nForm W-2 and the \"Statutory employee\" box on that form was checked",
+                "line_number": "1",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Part I, Line 1"
+            },
+            {
+                "field_name": "GrossReceiptsOrSalesReportedOnFormW2",
+                "field_type": "checkbox",
+                "label_text": null,
+                "line_number": "1",
+                "section_name": "Income",
+                "description": "Check the box if this income was reported to you on Form W-2 and the Statutory Employee box on that form was checked",
+                "location_hint": "Next to the 'Gross receipts or sales' label on line 1"
+            },
+            {
+                "field_name": "ReturnsAndAllowances",
+                "field_type": "numeric_input",
+                "label_text": "Returns and allowances",
+                "line_number": "2",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Part I, Line 2"
+            },
+            {
+                "field_name": "SubtractLine2FromLine1",
+                "field_type": "numeric_input",
+                "label_text": "Subtract line 2 from line 1",
+                "line_number": "3",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Part I, Line 3"
+            },
+            {
+                "field_name": "CostOfGoodsSold",
+                "field_type": "numeric_input",
+                "label_text": "Cost of goods sold (from line 42)",
+                "line_number": "4",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Part I, Line 4"
+            },
+            {
+                "field_name": "GrossProfit",
+                "field_type": "numeric_input",
+                "label_text": "Gross profit. Subtract line 4 from line 3",
+                "line_number": "5",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Part I, Line 5"
+            },
+            {
+                "field_name": "OtherIncome",
+                "field_type": "numeric_input",
+                "label_text": "Other income, including federal and state gasoline or fuel tax credit or refund (see instructions)",
+                "line_number": "6",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Part I, Line 6"
+            },
+            {
+                "field_name": "GrossIncome",
+                "field_type": "numeric_input",
+                "label_text": "Gross income. Add lines 5 and 6",
+                "line_number": "7",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Part I, Line 7"
+            },
+            {
+                "field_name": "Advertising",
+                "field_type": "numeric_input",
+                "label_text": "Advertising.",
+                "line_number": "8",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Part II, Line 8"
+            },
+            {
+                "field_name": "CarAndTruckExpenses",
+                "field_type": "numeric_input",
+                "label_text": "Car and truck expenses\n(see instructions)",
+                "line_number": "9",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Part II, Line 9"
+            },
+            {
+                "field_name": "CommissionsAndFees",
+                "field_type": "numeric_input",
+                "label_text": "Commissions and fees",
+                "line_number": "10",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Part II, Line 10"
+            },
+            {
+                "field_name": "ContractLabor",
+                "field_type": "numeric_input",
+                "label_text": "Contract labor (see instructions)",
+                "line_number": "11",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Part II, Line 11"
+            },
+            {
+                "field_name": "Depletion",
+                "field_type": "numeric_input",
+                "label_text": "Depletion",
+                "line_number": "12",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Part II, Line 12"
+            },
+            {
+                "field_name": "DepreciationAndSection179ExpenseDeduction",
+                "field_type": "numeric_input",
+                "label_text": "Depreciation and section 179\nexpense deduction (not\nincluded in Part III) (see\ninstructions)",
+                "line_number": "13",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Part II, Line 13"
+            },
+            {
+                "field_name": "EmployeeBenefitPrograms",
+                "field_type": "numeric_input",
+                "label_text": "Employee benefit programs\n(other than on line 19)",
+                "line_number": "14",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Part II, Line 14"
+            },
+            {
+                "field_name": "InsuranceOtherThanHealth",
+                "field_type": "numeric_input",
+                "label_text": "Insurance (other than health)",
+                "line_number": "15",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Part II, Line 15"
+            },
+            {
+                "field_name": "InterestMortgage",
+                "field_type": "numeric_input",
+                "label_text": "Mortgage (paid to banks, etc.)",
+                "line_number": "16a",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Part II, Line 16a"
+            },
+            {
+                "field_name": "InterestOther",
+                "field_type": "numeric_input",
+                "label_text": "Other",
+                "line_number": "16b",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Part II, Line 16b"
+            },
+            {
+                "field_name": "LegalAndProfessionalServices",
+                "field_type": "numeric_input",
+                "label_text": "Legal and professional services",
+                "line_number": "17",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Part II, Line 17"
+            },
+            {
+                "field_name": "OfficeExpense",
+                "field_type": "numeric_input",
+                "label_text": "Office expense (see instructions).",
+                "line_number": "18",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Part II, Line 18"
+            },
+            {
+                "field_name": "PensionAndProfitSharingPlans",
+                "field_type": "numeric_input",
+                "label_text": "Pension and profit-sharing plans.",
+                "line_number": "19",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Part II, Line 19"
+            },
+            {
+                "field_name": "RentOrLeaseVehiclesMachineryEquipment",
+                "field_type": "numeric_input",
+                "label_text": "Vehicles, machinery, and equipment",
+                "line_number": "20a",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Part II, Line 20a"
+            },
+            {
+                "field_name": "RentOrLeaseOtherBusinessProperty",
+                "field_type": "numeric_input",
+                "label_text": "Other business property",
+                "line_number": "20b",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Part II, Line 20b"
+            },
+            {
+                "field_name": "RepairsAndMaintenance",
+                "field_type": "numeric_input",
+                "label_text": "Repairs and maintenance",
+                "line_number": "21",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Part II, Line 21"
+            },
+            {
+                "field_name": "Supplies",
+                "field_type": "numeric_input",
+                "label_text": "Supplies (not included in Part III)",
+                "line_number": "22",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Part II, Line 22"
+            },
+            {
+                "field_name": "TaxesAndLicenses",
+                "field_type": "numeric_input",
+                "label_text": "Taxes and licenses",
+                "line_number": "23",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Part II, Line 23"
+            },
+            {
+                "field_name": "Travel",
+                "field_type": "numeric_input",
+                "label_text": "Travel.",
+                "line_number": "24a",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Part II, Line 24a"
+            },
+            {
+                "field_name": "DeductibleMeals",
+                "field_type": "numeric_input",
+                "label_text": "Deductible meals (see instructions)",
+                "line_number": "24b",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Part II, Line 24b"
+            },
+            {
+                "field_name": "Utilities",
+                "field_type": "numeric_input",
+                "label_text": "Utilities",
+                "line_number": "25",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Part II, Line 25"
+            },
+            {
+                "field_name": "Wages",
+                "field_type": "numeric_input",
+                "label_text": "Wages (less employment credits)",
+                "line_number": "26",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Part II, Line 26"
+            },
+            {
+                "field_name": "OtherExpensesFromLine48",
+                "field_type": "numeric_input",
+                "label_text": "Other expenses (from line 48).",
+                "line_number": "27a",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Part II, Line 27a"
+            },
+            {
+                "field_name": "EnergyEfficientCommercialBldgsDeduction",
+                "field_type": "numeric_input",
+                "label_text": "Energy efficient commercial bldgs\ndeduction (attach Form 7205) .",
+                "line_number": "27b",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Part II, Line 27b"
+            },
+            {
+                "field_name": "TotalExpenses",
+                "field_type": "numeric_input",
+                "label_text": "Total expenses before expenses for business use of home. Add lines 8 through 27b",
+                "line_number": "28",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Part II, Line 28"
+            },
+            {
+                "field_name": "TentativeProfitOrLoss",
+                "field_type": "numeric_input",
+                "label_text": "Tentative profit or (loss). Subtract line 28 from line 7.",
+                "line_number": "29",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Part II, Line 29"
+            },
+            {
+                "field_name": "HomeSquareFootage",
+                "field_type": "numeric_input",
+                "label_text": "Enter the total square footage of (a) your home:",
+                "line_number": null,
+                "section_name": "Expenses",
+                "description": "Total square footage of your home. For simplified method of deducting expenses for business use of your home only.",
+                "location_hint": "Line 30"
+            },
+            {
+                "field_name": "BusinessSquareFootage",
+                "field_type": "numeric_input",
+                "label_text": "and (b) the part of your home used for business:",
+                "line_number": null,
+                "section_name": "Expenses",
+                "description": "Square footage of business used in home. For simplified method of deducting expenses for business use of your home only.",
+                "location_hint": "Line 30"
+            },
+            {
+                "field_name": "NetProfitOrLoss",
+                "field_type": "numeric_input",
+                "label_text": "Net profit or (loss). Subtract line 30 from line 29.",
+                "line_number": "31",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Part II, Line 31"
+            },
+            {
+                "field_name": "InvestmentAtRiskAll",
+                "field_type": "checkbox",
+                "label_text": "All investment is at risk.",
+                "line_number": "32a",
+                "section_name": "Expenses",
+                "description": "Check if all investment is at risk.",
+                "location_hint": "Part II, Line 32a"
+            },
+            {
+                "field_name": "InvestmentAtRiskSome",
+                "field_type": "checkbox",
+                "label_text": "Some investment is not\nat risk.",
+                "line_number": "32b",
+                "section_name": "Expenses",
+                "description": "Check if some investment is not at risk.",
+                "location_hint": "Part II, Line 32b"
+            }
+        ]
+    },
+    "page_2": {
+        "fields": [
+            {
+                "field_name": "CostOfGoodsSoldMethodCost",
+                "field_type": "checkbox",
+                "label_text": "Cost",
+                "line_number": null,
+                "section_name": "Part III Cost of Goods Sold",
+                "description": null,
+                "location_hint": "Line 33a"
+            },
+            {
+                "field_name": "CostOfGoodsSoldMethodLowerOfCostOrMarket",
+                "field_type": "checkbox",
+                "label_text": "Lower of cost or market",
+                "line_number": null,
+                "section_name": "Part III Cost of Goods Sold",
+                "description": null,
+                "location_hint": "Line 33b"
+            },
+            {
+                "field_name": "CostOfGoodsSoldMethodOther",
+                "field_type": "checkbox",
+                "label_text": "Other (attach explanation)",
+                "line_number": null,
+                "section_name": "Part III Cost of Goods Sold",
+                "description": null,
+                "location_hint": "Line 33c"
+            },
+            {
+                "field_name": "ChangeInDeterminingQuantitiesCostsYes",
+                "field_type": "checkbox",
+                "label_text": "Yes",
+                "line_number": null,
+                "section_name": "Part III Cost of Goods Sold",
+                "description": null,
+                "location_hint": "Line 34"
+            },
+            {
+                "field_name": "ChangeInDeterminingQuantitiesCostsNo",
+                "field_type": "checkbox",
+                "label_text": "No",
+                "line_number": null,
+                "section_name": "Part III Cost of Goods Sold",
+                "description": null,
+                "location_hint": "Line 34"
+            },
+            {
+                "field_name": "Line35_InventoryBeginningOfYear",
+                "field_type": "numeric_input",
+                "label_text": "Inventory at beginning of year. If different from last year's closing inventory, attach explanation",
+                "line_number": "35",
+                "section_name": "Part III Cost of Goods Sold",
+                "description": null,
+                "location_hint": "Line 35"
+            },
+            {
+                "field_name": "Line36_PurchasesLessCostOfItemsWithdrawn",
+                "field_type": "numeric_input",
+                "label_text": "Purchases less cost of items withdrawn for personal use",
+                "line_number": "36",
+                "section_name": "Part III Cost of Goods Sold",
+                "description": null,
+                "location_hint": "Line 36"
+            },
+            {
+                "field_name": "Line37_CostOfLabor",
+                "field_type": "numeric_input",
+                "label_text": "Cost of labor. Do not include any amounts paid to yourself.",
+                "line_number": "37",
+                "section_name": "Part III Cost of Goods Sold",
+                "description": null,
+                "location_hint": "Line 37"
+            },
+            {
+                "field_name": "Line38_MaterialsAndSupplies",
+                "field_type": "numeric_input",
+                "label_text": "Materials and supplies",
+                "line_number": "38",
+                "section_name": "Part III Cost of Goods Sold",
+                "description": null,
+                "location_hint": "Line 38"
+            },
+            {
+                "field_name": "Line39_OtherCosts",
+                "field_type": "numeric_input",
+                "label_text": "Other costs.",
+                "line_number": "39",
+                "section_name": "Part III Cost of Goods Sold",
+                "description": null,
+                "location_hint": "Line 39"
+            },
+            {
+                "field_name": "Line40_AddLines35Through39",
+                "field_type": "numeric_input",
+                "label_text": "Add lines 35 through 39",
+                "line_number": "40",
+                "section_name": "Part III Cost of Goods Sold",
+                "description": null,
+                "location_hint": "Line 40"
+            },
+            {
+                "field_name": "Line41_InventoryAtEndOfYear",
+                "field_type": "numeric_input",
+                "label_text": "Inventory at end of year",
+                "line_number": "41",
+                "section_name": "Part III Cost of Goods Sold",
+                "description": null,
+                "location_hint": "Line 41"
+            },
+            {
+                "field_name": "Line42_CostOfGoodsSold",
+                "field_type": "numeric_input",
+                "label_text": "Cost of goods sold. Subtract line 41 from line 40. Enter the result here and on line 4",
+                "line_number": "42",
+                "section_name": "Part III Cost of Goods Sold",
+                "description": null,
+                "location_hint": "Line 42"
+            },
+            {
+                "field_name": "Line43_VehicleInServiceDate",
+                "field_type": "date_input",
+                "label_text": "When did you place your vehicle in service for business purposes? (month/day/year)",
+                "line_number": "43",
+                "section_name": "Part IV Information on Your Vehicle",
+                "description": null,
+                "location_hint": "Line 43"
+            },
+            {
+                "field_name": "Line44a_BusinessMiles",
+                "field_type": "numeric_input",
+                "label_text": "Business",
+                "line_number": "44",
+                "section_name": "Part IV Information on Your Vehicle",
+                "description": null,
+                "location_hint": "Line 44a"
+            },
+            {
+                "field_name": "Line44b_CommutingMiles",
+                "field_type": "numeric_input",
+                "label_text": "Commuting (see instructions)",
+                "line_number": "44",
+                "section_name": "Part IV Information on Your Vehicle",
+                "description": null,
+                "location_hint": "Line 44b"
+            },
+            {
+                "field_name": "Line44c_OtherMiles",
+                "field_type": "numeric_input",
+                "label_text": "Other",
+                "line_number": "44",
+                "section_name": "Part IV Information on Your Vehicle",
+                "description": null,
+                "location_hint": "Line 44c"
+            },
+            {
+                "field_name": "Line45_VehicleAvailableForPersonalUse_Yes",
+                "field_type": "checkbox",
+                "label_text": "Yes",
+                "line_number": "45",
+                "section_name": "Part IV Information on Your Vehicle",
+                "description": null,
+                "location_hint": "Line 45"
+            },
+            {
+                "field_name": "Line45_VehicleAvailableForPersonalUse_No",
+                "field_type": "checkbox",
+                "label_text": "No",
+                "line_number": "45",
+                "section_name": "Part IV Information on Your Vehicle",
+                "description": null,
+                "location_hint": "Line 45"
+            },
+            {
+                "field_name": "Line46_AnotherVehicleAvailable_Yes",
+                "field_type": "checkbox",
+                "label_text": "Yes",
+                "line_number": "46",
+                "section_name": "Part IV Information on Your Vehicle",
+                "description": null,
+                "location_hint": "Line 46"
+            },
+            {
+                "field_name": "Line46_AnotherVehicleAvailable_No",
+                "field_type": "checkbox",
+                "label_text": "No",
+                "line_number": "46",
+                "section_name": "Part IV Information on Your Vehicle",
+                "description": null,
+                "location_hint": "Line 46"
+            },
+            {
+                "field_name": "Line47a_EvidenceToSupportDeduction_Yes",
+                "field_type": "checkbox",
+                "label_text": "Yes",
+                "line_number": "47a",
+                "section_name": "Part IV Information on Your Vehicle",
+                "description": null,
+                "location_hint": "Line 47a"
+            },
+            {
+                "field_name": "Line47a_EvidenceToSupportDeduction_No",
+                "field_type": "checkbox",
+                "label_text": "No",
+                "line_number": "47a",
+                "section_name": "Part IV Information on Your Vehicle",
+                "description": null,
+                "location_hint": "Line 47a"
+            },
+            {
+                "field_name": "Line47b_EvidenceWritten_Yes",
+                "field_type": "checkbox",
+                "label_text": "Yes",
+                "line_number": "47b",
+                "section_name": "Part IV Information on Your Vehicle",
+                "description": null,
+                "location_hint": "Line 47b"
+            },
+            {
+                "field_name": "Line47b_EvidenceWritten_No",
+                "field_type": "checkbox",
+                "label_text": "No",
+                "line_number": "47b",
+                "section_name": "Part IV Information on Your Vehicle",
+                "description": null,
+                "location_hint": "Line 47b"
+            },
+            {
+                "field_name": "OtherExpenses",
+                "field_type": "text_input",
+                "label_text": "Other Expenses. List below business expenses not included on lines 8\u201326, line 27b, or line 30.",
+                "line_number": null,
+                "section_name": "Part V Other Expenses",
+                "description": null,
+                "location_hint": "Lines in part V"
+            },
+            {
+                "field_name": "Line48_TotalOtherExpenses",
+                "field_type": "numeric_input",
+                "label_text": "Total other expenses. Enter here and on line 27a",
+                "line_number": "48",
+                "section_name": "Part V Other Expenses",
+                "description": null,
+                "location_hint": "Line 48"
+            }
+        ]
+    }
+}

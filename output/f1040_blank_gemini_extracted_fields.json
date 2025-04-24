@@ -1,0 +1,1207 @@
+{
+    "page_1": {
+        "fields": [
+            {
+                "field_name": "FirstNameInitial",
+                "field_type": "text_input",
+                "label_text": "Your first name and middle initial",
+                "line_number": null,
+                "section_name": null,
+                "description": null,
+                "location_hint": "Top left corner"
+            },
+            {
+                "field_name": "LastName",
+                "field_type": "text_input",
+                "label_text": "Last name",
+                "line_number": null,
+                "section_name": null,
+                "description": null,
+                "location_hint": "Top right, next to first name"
+            },
+            {
+                "field_name": "SpouseFirstNameInitial",
+                "field_type": "text_input",
+                "label_text": "If joint return, spouse's first name and middle initial",
+                "line_number": null,
+                "section_name": null,
+                "description": null,
+                "location_hint": "Second line, left side"
+            },
+            {
+                "field_name": "SpouseLastName",
+                "field_type": "text_input",
+                "label_text": "Last name",
+                "line_number": null,
+                "section_name": null,
+                "description": null,
+                "location_hint": "Second line, right side"
+            },
+            {
+                "field_name": "YourSocialSecurityNumber",
+                "field_type": "ssn_input",
+                "label_text": "Your social security number",
+                "line_number": null,
+                "section_name": null,
+                "description": null,
+                "location_hint": "Top right, under last name"
+            },
+            {
+                "field_name": "SpouseSocialSecurityNumber",
+                "field_type": "ssn_input",
+                "label_text": "Spouse's social security number",
+                "line_number": null,
+                "section_name": null,
+                "description": null,
+                "location_hint": "Below Your social security number"
+            },
+            {
+                "field_name": "HomeAddress",
+                "field_type": "text_input",
+                "label_text": "Home address (number and street). If you have a P.O. box, see instructions.",
+                "line_number": null,
+                "section_name": null,
+                "description": null,
+                "location_hint": "Address field, below names"
+            },
+            {
+                "field_name": "AptNo",
+                "field_type": "text_input",
+                "label_text": "Apt. no.",
+                "line_number": null,
+                "section_name": null,
+                "description": null,
+                "location_hint": "Next to address field"
+            },
+            {
+                "field_name": "CityTownPostOffice",
+                "field_type": "text_input",
+                "label_text": "City, town, or post office. If you have a foreign address, also complete spaces below.",
+                "line_number": null,
+                "section_name": null,
+                "description": null,
+                "location_hint": "Below address, left side"
+            },
+            {
+                "field_name": "State",
+                "field_type": "text_input",
+                "label_text": "State",
+                "line_number": null,
+                "section_name": null,
+                "description": null,
+                "location_hint": "Next to City, town, or post office"
+            },
+            {
+                "field_name": "ZipCode",
+                "field_type": "text_input",
+                "label_text": "ZIP code",
+                "line_number": null,
+                "section_name": null,
+                "description": null,
+                "location_hint": "Next to State"
+            },
+            {
+                "field_name": "ForeignCountryName",
+                "field_type": "text_input",
+                "label_text": "Foreign country name",
+                "line_number": null,
+                "section_name": null,
+                "description": null,
+                "location_hint": "Below City, town, or post office"
+            },
+            {
+                "field_name": "ForeignProvinceStateCounty",
+                "field_type": "text_input",
+                "label_text": "Foreign province/state/county",
+                "line_number": null,
+                "section_name": null,
+                "description": null,
+                "location_hint": "Next to Foreign country name"
+            },
+            {
+                "field_name": "ForeignPostalCode",
+                "field_type": "text_input",
+                "label_text": "Foreign postal code",
+                "line_number": null,
+                "section_name": null,
+                "description": null,
+                "location_hint": "Next to Foreign province/state/county"
+            },
+            {
+                "field_name": "FilingStatusSingle",
+                "field_type": "checkbox",
+                "label_text": "Single",
+                "line_number": null,
+                "section_name": "Filing Status",
+                "description": null,
+                "location_hint": "Filing Status section, first checkbox"
+            },
+            {
+                "field_name": "FilingStatusMarriedFilingJointly",
+                "field_type": "checkbox",
+                "label_text": "Married filing jointly (even if only one had income)",
+                "line_number": null,
+                "section_name": "Filing Status",
+                "description": null,
+                "location_hint": "Filing Status section, second checkbox"
+            },
+            {
+                "field_name": "FilingStatusMarriedFilingSeparately",
+                "field_type": "checkbox",
+                "label_text": "Married filing separately (MFS)",
+                "line_number": null,
+                "section_name": "Filing Status",
+                "description": null,
+                "location_hint": "Filing Status section, third checkbox"
+            },
+            {
+                "field_name": "FilingStatusHeadOfHousehold",
+                "field_type": "checkbox",
+                "label_text": "Head of household (HOH)",
+                "line_number": null,
+                "section_name": "Filing Status",
+                "description": null,
+                "location_hint": "Filing Status section, first checkbox on the right"
+            },
+            {
+                "field_name": "FilingStatusQualifyingSurvivingSpouse",
+                "field_type": "checkbox",
+                "label_text": "Qualifying surviving spouse (QSS)",
+                "line_number": null,
+                "section_name": "Filing Status",
+                "description": null,
+                "location_hint": "Filing Status section, second checkbox on the right"
+            },
+            {
+                "field_name": "MFS_SpouseName",
+                "field_type": "text_input",
+                "label_text": "If you checked the MFS box, enter the name of your spouse.",
+                "line_number": null,
+                "section_name": "Filing Status",
+                "description": null,
+                "location_hint": "Below Filing Status checkboxes"
+            },
+            {
+                "field_name": "HOH_QSS_ChildName",
+                "field_type": "text_input",
+                "label_text": "If you checked the HOH or QSS box, enter the child's name if the\nqualifying person is a child but not your dependent:",
+                "line_number": null,
+                "section_name": "Filing Status",
+                "description": null,
+                "location_hint": "Below SpouseName"
+            },
+            {
+                "field_name": "NonResidentAlienSpouse",
+                "field_type": "checkbox",
+                "label_text": "If treating a nonresident alien or dual-status alien spouse as a U.S. resident for the entire tax year, check the box and enter\ntheir name (see instructions and attach statement if required):",
+                "line_number": null,
+                "section_name": "Filing Status",
+                "description": null,
+                "location_hint": "Below HOH_QSS_ChildName"
+            },
+            {
+                "field_name": "PresidentialElectionCampaignYou",
+                "field_type": "checkbox",
+                "label_text": "You",
+                "line_number": null,
+                "section_name": "Presidential Election Campaign",
+                "description": null,
+                "location_hint": "Presidential Election Campaign section, first checkbox"
+            },
+            {
+                "field_name": "PresidentialElectionCampaignSpouse",
+                "field_type": "checkbox",
+                "label_text": "Spouse",
+                "line_number": null,
+                "section_name": "Presidential Election Campaign",
+                "description": null,
+                "location_hint": "Presidential Election Campaign section, second checkbox"
+            },
+            {
+                "field_name": "DigitalAssetsYes",
+                "field_type": "radio_button",
+                "label_text": "Yes",
+                "line_number": null,
+                "section_name": "Digital Assets",
+                "description": null,
+                "location_hint": "Digital Assets section, first radio button"
+            },
+            {
+                "field_name": "DigitalAssetsNo",
+                "field_type": "radio_button",
+                "label_text": "No",
+                "line_number": null,
+                "section_name": "Digital Assets",
+                "description": null,
+                "location_hint": "Digital Assets section, second radio button"
+            },
+            {
+                "field_name": "SomeoneCanClaimYou",
+                "field_type": "checkbox",
+                "label_text": "You as a dependent",
+                "line_number": null,
+                "section_name": "Standard Deduction",
+                "description": null,
+                "location_hint": "Standard deduction section, first checkbox"
+            },
+            {
+                "field_name": "SomeoneCanClaimYourSpouse",
+                "field_type": "checkbox",
+                "label_text": "Your spouse as a dependent",
+                "line_number": null,
+                "section_name": "Standard Deduction",
+                "description": null,
+                "location_hint": "Standard deduction section, second checkbox"
+            },
+            {
+                "field_name": "SpouseItemizes",
+                "field_type": "checkbox",
+                "label_text": "Spouse itemizes on a separate return or you were a dual-status alien",
+                "line_number": null,
+                "section_name": "Standard Deduction",
+                "description": null,
+                "location_hint": "Standard deduction section, third checkbox"
+            },
+            {
+                "field_name": "AgeBlindnessYouBornBefore1960",
+                "field_type": "checkbox",
+                "label_text": "Were born before January 2, 1960",
+                "line_number": null,
+                "section_name": "Age/Blindness",
+                "description": null,
+                "location_hint": "Age/Blindness Section, first checkbox"
+            },
+            {
+                "field_name": "AgeBlindnessYouAreBlind",
+                "field_type": "checkbox",
+                "label_text": "Are blind",
+                "line_number": null,
+                "section_name": "Age/Blindness",
+                "description": null,
+                "location_hint": "Age/Blindness Section, second checkbox"
+            },
+            {
+                "field_name": "AgeBlindnessSpouseBornBefore1960",
+                "field_type": "checkbox",
+                "label_text": "Was born before January 2, 1960",
+                "line_number": null,
+                "section_name": "Age/Blindness",
+                "description": null,
+                "location_hint": "Age/Blindness Section, third checkbox"
+            },
+            {
+                "field_name": "AgeBlindnessSpouseIsBlind",
+                "field_type": "checkbox",
+                "label_text": "Is blind",
+                "line_number": null,
+                "section_name": "Age/Blindness",
+                "description": null,
+                "location_hint": "Age/Blindness Section, fourth checkbox"
+            },
+            {
+                "field_name": "Dependent1_FirstName",
+                "field_type": "text_input",
+                "label_text": "(1) First name",
+                "line_number": null,
+                "section_name": "Dependents",
+                "description": null,
+                "location_hint": "Dependents Section, first row, first column"
+            },
+            {
+                "field_name": "Dependent1_LastName",
+                "field_type": "text_input",
+                "label_text": "Last name",
+                "line_number": null,
+                "section_name": "Dependents",
+                "description": null,
+                "location_hint": "Dependents Section, first row, second column"
+            },
+            {
+                "field_name": "Dependent1_SocialSecurityNumber",
+                "field_type": "ssn_input",
+                "label_text": "(2) Social security\nnumber",
+                "line_number": null,
+                "section_name": "Dependents",
+                "description": null,
+                "location_hint": "Dependents Section, first row, third column"
+            },
+            {
+                "field_name": "Dependent1_Relationship",
+                "field_type": "text_input",
+                "label_text": "(3) Relationship\nto you",
+                "line_number": null,
+                "section_name": "Dependents",
+                "description": null,
+                "location_hint": "Dependents Section, first row, fourth column"
+            },
+            {
+                "field_name": "Dependent1_ChildTaxCredit",
+                "field_type": "checkbox",
+                "label_text": "(4) Check the box if qualifies for (see instructions):\nChild tax credit",
+                "line_number": null,
+                "section_name": "Dependents",
+                "description": null,
+                "location_hint": "Dependents Section, first row, fifth column"
+            },
+            {
+                "field_name": "Dependent1_CreditForOtherDependents",
+                "field_type": "checkbox",
+                "label_text": "Credit for other dependents",
+                "line_number": null,
+                "section_name": "Dependents",
+                "description": null,
+                "location_hint": "Dependents Section, first row, sixth column"
+            },
+            {
+                "field_name": "Dependent2_ChildTaxCredit",
+                "field_type": "checkbox",
+                "label_text": "(4) Check the box if qualifies for (see instructions):\nChild tax credit",
+                "line_number": null,
+                "section_name": "Dependents",
+                "description": null,
+                "location_hint": "Dependents Section, second row, fifth column"
+            },
+            {
+                "field_name": "Dependent2_CreditForOtherDependents",
+                "field_type": "checkbox",
+                "label_text": "Credit for other dependents",
+                "line_number": null,
+                "section_name": "Dependents",
+                "description": null,
+                "location_hint": "Dependents Section, second row, sixth column"
+            },
+            {
+                "field_name": "Dependent3_ChildTaxCredit",
+                "field_type": "checkbox",
+                "label_text": "(4) Check the box if qualifies for (see instructions):\nChild tax credit",
+                "line_number": null,
+                "section_name": "Dependents",
+                "description": null,
+                "location_hint": "Dependents Section, third row, fifth column"
+            },
+            {
+                "field_name": "Dependent3_CreditForOtherDependents",
+                "field_type": "checkbox",
+                "label_text": "Credit for other dependents",
+                "line_number": null,
+                "section_name": "Dependents",
+                "description": null,
+                "location_hint": "Dependents Section, third row, sixth column"
+            },
+            {
+                "field_name": "Dependent4_ChildTaxCredit",
+                "field_type": "checkbox",
+                "label_text": "(4) Check the box if qualifies for (see instructions):\nChild tax credit",
+                "line_number": null,
+                "section_name": "Dependents",
+                "description": null,
+                "location_hint": "Dependents Section, fourth row, fifth column"
+            },
+            {
+                "field_name": "Dependent4_CreditForOtherDependents",
+                "field_type": "checkbox",
+                "label_text": "Credit for other dependents",
+                "line_number": null,
+                "section_name": "Dependents",
+                "description": null,
+                "location_hint": "Dependents Section, fourth row, sixth column"
+            },
+            {
+                "field_name": "Income_1a",
+                "field_type": "numeric_input",
+                "label_text": "Total amount from Form(s) W-2, box 1 (see instructions)",
+                "line_number": "1a",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Income section, line 1a"
+            },
+            {
+                "field_name": "Income_1b",
+                "field_type": "numeric_input",
+                "label_text": "Household employee wages not reported on Form(s) W-2",
+                "line_number": "1b",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Income section, line 1b"
+            },
+            {
+                "field_name": "Income_1c",
+                "field_type": "numeric_input",
+                "label_text": "Tip income not reported on line 1a (see instructions)",
+                "line_number": "1c",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Income section, line 1c"
+            },
+            {
+                "field_name": "Income_1d",
+                "field_type": "numeric_input",
+                "label_text": "Medicaid waiver payments not reported on Form(s) W-2 (see instructions)",
+                "line_number": "1d",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Income section, line 1d"
+            },
+            {
+                "field_name": "Income_1e",
+                "field_type": "numeric_input",
+                "label_text": "Taxable dependent care benefits from Form 2441, line 26",
+                "line_number": "1e",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Income section, line 1e"
+            },
+            {
+                "field_name": "Income_1f",
+                "field_type": "numeric_input",
+                "label_text": "Employer-provided adoption benefits from Form 8839, line 29",
+                "line_number": "1f",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Income section, line 1f"
+            },
+            {
+                "field_name": "Income_1g",
+                "field_type": "numeric_input",
+                "label_text": "Wages from Form 8919, line 6",
+                "line_number": "1g",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Income section, line 1g"
+            },
+            {
+                "field_name": "Income_1h",
+                "field_type": "numeric_input",
+                "label_text": "Other earned income (see instructions)",
+                "line_number": "1h",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Income section, line 1h"
+            },
+            {
+                "field_name": "Income_1i",
+                "field_type": "numeric_input",
+                "label_text": "Nontaxable combat pay election (see instructions)",
+                "line_number": "1i",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Income section, line 1i"
+            },
+            {
+                "field_name": "Income_1z",
+                "field_type": "numeric_input",
+                "label_text": "Add lines 1a through 1h",
+                "line_number": "1z",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Income section, line 1z"
+            },
+            {
+                "field_name": "Income_2a",
+                "field_type": "numeric_input",
+                "label_text": "Tax-exempt interest",
+                "line_number": "2a",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Income section, line 2a"
+            },
+            {
+                "field_name": "Income_2b",
+                "field_type": "numeric_input",
+                "label_text": "b Taxable interest",
+                "line_number": "2b",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Income section, line 2b"
+            },
+            {
+                "field_name": "Income_3a",
+                "field_type": "numeric_input",
+                "label_text": "Qualified dividends",
+                "line_number": "3a",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Income section, line 3a"
+            },
+            {
+                "field_name": "Income_3b",
+                "field_type": "numeric_input",
+                "label_text": "b Ordinary dividends",
+                "line_number": "3b",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Income section, line 3b"
+            },
+            {
+                "field_name": "Income_4a",
+                "field_type": "numeric_input",
+                "label_text": "IRA distributions",
+                "line_number": "4a",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Income section, line 4a"
+            },
+            {
+                "field_name": "Income_4b",
+                "field_type": "numeric_input",
+                "label_text": "b Taxable amount",
+                "line_number": "4b",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Income section, line 4b"
+            },
+            {
+                "field_name": "Income_5a",
+                "field_type": "numeric_input",
+                "label_text": "Pensions and annuities",
+                "line_number": "5a",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Income section, line 5a"
+            },
+            {
+                "field_name": "Income_5b",
+                "field_type": "numeric_input",
+                "label_text": "b Taxable amount",
+                "line_number": "5b",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Income section, line 5b"
+            },
+            {
+                "field_name": "Income_6a",
+                "field_type": "numeric_input",
+                "label_text": "Social security benefits",
+                "line_number": "6a",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Income section, line 6a"
+            },
+            {
+                "field_name": "Income_6b",
+                "field_type": "numeric_input",
+                "label_text": "b Taxable amount.",
+                "line_number": "6b",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Income section, line 6b"
+            },
+            {
+                "field_name": "Income_6c",
+                "field_type": "checkbox",
+                "label_text": "If you elect to use the lump-sum election method, check here (see instructions)",
+                "line_number": "6c",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Income section, line 6c"
+            },
+            {
+                "field_name": "Income_7",
+                "field_type": "numeric_input",
+                "label_text": "Capital gain or (loss). Attach Schedule D if required. If not required, check here",
+                "line_number": "7",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Income section, line 7"
+            },
+            {
+                "field_name": "Income_8",
+                "field_type": "numeric_input",
+                "label_text": "Additional income from Schedule 1, line 10",
+                "line_number": "8",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Income section, line 8"
+            },
+            {
+                "field_name": "Income_9",
+                "field_type": "numeric_input",
+                "label_text": "Add lines 1z, 2b, 3b, 4b, 5b, 6b, 7, and 8. This is your total income",
+                "line_number": "9",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Income section, line 9"
+            },
+            {
+                "field_name": "Income_10",
+                "field_type": "numeric_input",
+                "label_text": "Adjustments to income from Schedule 1, line 26",
+                "line_number": "10",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Income section, line 10"
+            },
+            {
+                "field_name": "Income_11",
+                "field_type": "numeric_input",
+                "label_text": "Subtract line 10 from line 9. This is your adjusted gross income",
+                "line_number": "11",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Income section, line 11"
+            },
+            {
+                "field_name": "Income_12",
+                "field_type": "numeric_input",
+                "label_text": "Standard deduction or itemized deductions (from Schedule A)",
+                "line_number": "12",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Income section, line 12"
+            },
+            {
+                "field_name": "Income_13",
+                "field_type": "numeric_input",
+                "label_text": "Qualified business income deduction from Form 8995 or Form 8995-A",
+                "line_number": "13",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Income section, line 13"
+            },
+            {
+                "field_name": "Income_14",
+                "field_type": "numeric_input",
+                "label_text": "Add lines 12 and 13",
+                "line_number": "14",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Income section, line 14"
+            },
+            {
+                "field_name": "Income_15",
+                "field_type": "numeric_input",
+                "label_text": "Subtract line 14 from line 11. If zero or less, enter -0-. This is your taxable income",
+                "line_number": "15",
+                "section_name": "Income",
+                "description": null,
+                "location_hint": "Income section, line 15"
+            }
+        ]
+    },
+    "page_2": {
+        "fields": [
+            {
+                "field_name": "TaxForm",
+                "field_type": "checkbox",
+                "label_text": "1 8814",
+                "line_number": null,
+                "section_name": "Tax and Credits",
+                "description": "Check if any from Form(s): 8814",
+                "location_hint": "Line 16"
+            },
+            {
+                "field_name": "TaxForm",
+                "field_type": "checkbox",
+                "label_text": "2 4972",
+                "line_number": null,
+                "section_name": "Tax and Credits",
+                "description": "Check if any from Form(s): 4972",
+                "location_hint": "Line 16"
+            },
+            {
+                "field_name": "TaxForm",
+                "field_type": "checkbox",
+                "label_text": "3",
+                "line_number": null,
+                "section_name": "Tax and Credits",
+                "description": "Check if any from Form(s)",
+                "location_hint": "Line 16"
+            },
+            {
+                "field_name": "Line16_Tax",
+                "field_type": "numeric_input",
+                "label_text": "Tax (see instructions)",
+                "line_number": "16",
+                "section_name": "Tax and Credits",
+                "description": null,
+                "location_hint": "Tax and Credits section, line 16"
+            },
+            {
+                "field_name": "Line17_AmountFromSchedule2",
+                "field_type": "numeric_input",
+                "label_text": "Amount from Schedule 2, line 3",
+                "line_number": "17",
+                "section_name": "Tax and Credits",
+                "description": null,
+                "location_hint": "Tax and Credits section, line 17"
+            },
+            {
+                "field_name": "Line18_AddLines16And17",
+                "field_type": "numeric_input",
+                "label_text": "Add lines 16 and 17",
+                "line_number": "18",
+                "section_name": "Tax and Credits",
+                "description": null,
+                "location_hint": "Tax and Credits section, line 18"
+            },
+            {
+                "field_name": "Line19_ChildTaxCredit",
+                "field_type": "numeric_input",
+                "label_text": "Child tax credit or credit for other dependents from Schedule 8812",
+                "line_number": "19",
+                "section_name": "Tax and Credits",
+                "description": null,
+                "location_hint": "Tax and Credits section, line 19"
+            },
+            {
+                "field_name": "Line20_AmountFromSchedule3",
+                "field_type": "numeric_input",
+                "label_text": "Amount from Schedule 3, line 8",
+                "line_number": "20",
+                "section_name": "Tax and Credits",
+                "description": null,
+                "location_hint": "Tax and Credits section, line 20"
+            },
+            {
+                "field_name": "Line21_AddLines19And20",
+                "field_type": "numeric_input",
+                "label_text": "Add lines 19 and 20",
+                "line_number": "21",
+                "section_name": "Tax and Credits",
+                "description": null,
+                "location_hint": "Tax and Credits section, line 21"
+            },
+            {
+                "field_name": "Line22_SubtractLine21From18",
+                "field_type": "numeric_input",
+                "label_text": "Subtract line 21 from line 18. If zero or less, enter -0-",
+                "line_number": "22",
+                "section_name": "Tax and Credits",
+                "description": null,
+                "location_hint": "Tax and Credits section, line 22"
+            },
+            {
+                "field_name": "Line23_OtherTaxes",
+                "field_type": "numeric_input",
+                "label_text": "Other taxes, including self-employment tax, from Schedule 2, line 21",
+                "line_number": "23",
+                "section_name": "Tax and Credits",
+                "description": null,
+                "location_hint": "Tax and Credits section, line 23"
+            },
+            {
+                "field_name": "Line24_AddLines22And23",
+                "field_type": "numeric_input",
+                "label_text": "Add lines 22 and 23. This is your total tax",
+                "line_number": "24",
+                "section_name": "Tax and Credits",
+                "description": null,
+                "location_hint": "Tax and Credits section, line 24"
+            },
+            {
+                "field_name": "Line25a_FormW2",
+                "field_type": "numeric_input",
+                "label_text": "Form(s) W-2",
+                "line_number": "25a",
+                "section_name": "Payments",
+                "description": "Federal income tax withheld from:",
+                "location_hint": "Payments section, line 25a"
+            },
+            {
+                "field_name": "Line25b_Form1099",
+                "field_type": "numeric_input",
+                "label_text": "Form(s) 1099",
+                "line_number": "25b",
+                "section_name": "Payments",
+                "description": "Federal income tax withheld from:",
+                "location_hint": "Payments section, line 25b"
+            },
+            {
+                "field_name": "Line25c_OtherForms",
+                "field_type": "numeric_input",
+                "label_text": "Other forms (see instructions)",
+                "line_number": "25c",
+                "section_name": "Payments",
+                "description": "Federal income tax withheld from:",
+                "location_hint": "Payments section, line 25c"
+            },
+            {
+                "field_name": "Line25d_AddLines25aThrough25c",
+                "field_type": "numeric_input",
+                "label_text": "Add lines 25a through 25c",
+                "line_number": "25d",
+                "section_name": "Payments",
+                "description": null,
+                "location_hint": "Payments section, line 25d"
+            },
+            {
+                "field_name": "Line26_EstimatedTaxPayments",
+                "field_type": "numeric_input",
+                "label_text": "2024 estimated tax payments and amount applied from 2023 return",
+                "line_number": "26",
+                "section_name": "Payments",
+                "description": null,
+                "location_hint": "Payments section, line 26"
+            },
+            {
+                "field_name": "Line27_EarnedIncomeCredit",
+                "field_type": "numeric_input",
+                "label_text": "Earned income credit (EIC)",
+                "line_number": "27",
+                "section_name": "Payments",
+                "description": null,
+                "location_hint": "Payments section, line 27"
+            },
+            {
+                "field_name": "Line28_AdditionalChildTaxCredit",
+                "field_type": "numeric_input",
+                "label_text": "Additional child tax credit from Schedule 8812",
+                "line_number": "28",
+                "section_name": "Payments",
+                "description": null,
+                "location_hint": "Payments section, line 28"
+            },
+            {
+                "field_name": "Line29_AmericanOpportunityCredit",
+                "field_type": "numeric_input",
+                "label_text": "American opportunity credit from Form 8863, line 8.",
+                "line_number": "29",
+                "section_name": "Payments",
+                "description": null,
+                "location_hint": "Payments section, line 29"
+            },
+            {
+                "field_name": "Line30_ReservedForFutureUse",
+                "field_type": "numeric_input",
+                "label_text": "Reserved for future use",
+                "line_number": "30",
+                "section_name": "Payments",
+                "description": null,
+                "location_hint": "Payments section, line 30"
+            },
+            {
+                "field_name": "Line31_AmountFromSchedule3",
+                "field_type": "numeric_input",
+                "label_text": "Amount from Schedule 3, line 15",
+                "line_number": "31",
+                "section_name": "Payments",
+                "description": null,
+                "location_hint": "Payments section, line 31"
+            },
+            {
+                "field_name": "Line32_AddLines27Through31",
+                "field_type": "numeric_input",
+                "label_text": "Add lines 27, 28, 29, and 31. These are your total other payments and refundable credits",
+                "line_number": "32",
+                "section_name": "Payments",
+                "description": null,
+                "location_hint": "Payments section, line 32"
+            },
+            {
+                "field_name": "Line33_AddLines25dAnd26And32",
+                "field_type": "numeric_input",
+                "label_text": "Add lines 25d, 26, and 32. These are your total payments",
+                "line_number": "33",
+                "section_name": "Payments",
+                "description": null,
+                "location_hint": "Payments section, line 33"
+            },
+            {
+                "field_name": "Line34_OverpaidAmount",
+                "field_type": "numeric_input",
+                "label_text": "If line 33 is more than line 24, subtract line 24 from line 33. This is the amount you overpaid",
+                "line_number": "34",
+                "section_name": "Refund",
+                "description": null,
+                "location_hint": "Refund section, line 34"
+            },
+            {
+                "field_name": "Line35a_AmountRefunded",
+                "field_type": "numeric_input",
+                "label_text": "Amount of line 34 you want refunded to you. If Form 8888 is attached, check here",
+                "line_number": "35a",
+                "section_name": "Refund",
+                "description": null,
+                "location_hint": "Refund section, line 35a"
+            },
+            {
+                "field_name": "Line35a_Form8888Attached",
+                "field_type": "checkbox",
+                "label_text": "If Form 8888 is attached, check here",
+                "line_number": "35a",
+                "section_name": "Refund",
+                "description": null,
+                "location_hint": "Refund section, line 35a"
+            },
+            {
+                "field_name": "Line35b_RoutingNumber",
+                "field_type": "numeric_input",
+                "label_text": "Routing number",
+                "line_number": "35b",
+                "section_name": "Refund",
+                "description": null,
+                "location_hint": "Refund section, line 35b"
+            },
+            {
+                "field_name": "Line35c_CheckingType",
+                "field_type": "checkbox",
+                "label_text": "Checking",
+                "line_number": "35c",
+                "section_name": "Refund",
+                "description": null,
+                "location_hint": "Refund section, line 35c"
+            },
+            {
+                "field_name": "Line35c_SavingsType",
+                "field_type": "checkbox",
+                "label_text": "Savings",
+                "line_number": "35c",
+                "section_name": "Refund",
+                "description": null,
+                "location_hint": "Refund section, line 35c"
+            },
+            {
+                "field_name": "Line35d_AccountNumber",
+                "field_type": "numeric_input",
+                "label_text": "Account number",
+                "line_number": "35d",
+                "section_name": "Refund",
+                "description": null,
+                "location_hint": "Refund section, line 35d"
+            },
+            {
+                "field_name": "Line36_AppliedTo2025",
+                "field_type": "numeric_input",
+                "label_text": "Amount of line 34 you want applied to your 2025 estimated tax",
+                "line_number": "36",
+                "section_name": "Amount You Owe",
+                "description": null,
+                "location_hint": "Amount You Owe section, line 36"
+            },
+            {
+                "field_name": "Line37_AmountYouOwe",
+                "field_type": "numeric_input",
+                "label_text": "Subtract line 33 from line 24. This is the amount you owe.",
+                "line_number": "37",
+                "section_name": "Amount You Owe",
+                "description": null,
+                "location_hint": "Amount You Owe section, line 37"
+            },
+            {
+                "field_name": "Line38_EstimatedTaxPenalty",
+                "field_type": "numeric_input",
+                "label_text": "Estimated tax penalty (see instructions)",
+                "line_number": "38",
+                "section_name": "Amount You Owe",
+                "description": null,
+                "location_hint": "Amount You Owe section, line 38"
+            },
+            {
+                "field_name": "ThirdPartyDesignee_Yes",
+                "field_type": "checkbox",
+                "label_text": "Yes. Complete below.",
+                "line_number": null,
+                "section_name": "Third Party Designee",
+                "description": "Do you want to allow another person to discuss this return with the IRS? See instructions",
+                "location_hint": "Third Party Designee section, Yes radio button"
+            },
+            {
+                "field_name": "ThirdPartyDesignee_No",
+                "field_type": "checkbox",
+                "label_text": "No",
+                "line_number": null,
+                "section_name": "Third Party Designee",
+                "description": "Do you want to allow another person to discuss this return with the IRS? See instructions",
+                "location_hint": "Third Party Designee section, No radio button"
+            },
+            {
+                "field_name": "DesigneeName",
+                "field_type": "text_input",
+                "label_text": "Designee's name",
+                "line_number": null,
+                "section_name": "Third Party Designee",
+                "description": null,
+                "location_hint": "Third Party Designee section, Designee's name input"
+            },
+            {
+                "field_name": "DesigneePhoneNumber",
+                "field_type": "text_input",
+                "label_text": "Phone no.",
+                "line_number": null,
+                "section_name": "Third Party Designee",
+                "description": null,
+                "location_hint": "Third Party Designee section, Phone number input"
+            },
+            {
+                "field_name": "DesigneePIN",
+                "field_type": "numeric_input",
+                "label_text": "Personal identification number (PIN)",
+                "line_number": null,
+                "section_name": "Third Party Designee",
+                "description": null,
+                "location_hint": "Third Party Designee section, PIN input"
+            },
+            {
+                "field_name": "YourSignature",
+                "field_type": "signature_area",
+                "label_text": "Your signature",
+                "line_number": null,
+                "section_name": "Sign Here",
+                "description": null,
+                "location_hint": "Sign Here section, Your signature"
+            },
+            {
+                "field_name": "YourSignatureDate",
+                "field_type": "date_input",
+                "label_text": "Date",
+                "line_number": null,
+                "section_name": "Sign Here",
+                "description": null,
+                "location_hint": "Sign Here section, Your signature date"
+            },
+            {
+                "field_name": "YourOccupation",
+                "field_type": "text_input",
+                "label_text": "Your occupation",
+                "line_number": null,
+                "section_name": "Sign Here",
+                "description": null,
+                "location_hint": "Sign Here section, Your occupation"
+            },
+            {
+                "field_name": "IdentityProtectionPIN",
+                "field_type": "numeric_input",
+                "label_text": "If the IRS sent you an Identity Protection PIN, enter it here (see inst.)",
+                "line_number": null,
+                "section_name": "Sign Here",
+                "description": null,
+                "location_hint": "Sign Here section, your IP PIN entry"
+            },
+            {
+                "field_name": "SpouseSignature",
+                "field_type": "signature_area",
+                "label_text": "Spouse's signature. If a joint return, both must sign.",
+                "line_number": null,
+                "section_name": "Sign Here",
+                "description": null,
+                "location_hint": "Sign Here section, Spouse's signature"
+            },
+            {
+                "field_name": "SpouseSignatureDate",
+                "field_type": "date_input",
+                "label_text": "Date",
+                "line_number": null,
+                "section_name": "Sign Here",
+                "description": null,
+                "location_hint": "Sign Here section, Spouse's signature date"
+            },
+            {
+                "field_name": "SpouseOccupation",
+                "field_type": "text_input",
+                "label_text": "Spouse's occupation",
+                "line_number": null,
+                "section_name": "Sign Here",
+                "description": null,
+                "location_hint": "Sign Here section, Spouse's occupation"
+            },
+            {
+                "field_name": "SpouseIdentityProtectionPIN",
+                "field_type": "numeric_input",
+                "label_text": "If the IRS sent your spouse an Identity Protection PIN, enter it here (see inst.)",
+                "line_number": null,
+                "section_name": "Sign Here",
+                "description": null,
+                "location_hint": "Sign Here section, spouse's IP PIN entry"
+            },
+            {
+                "field_name": "PreparerPhone",
+                "field_type": "text_input",
+                "label_text": "Phone no.",
+                "line_number": null,
+                "section_name": "Paid Preparer Use Only",
+                "description": null,
+                "location_hint": "Paid Preparer Use Only section, Phone no."
+            },
+            {
+                "field_name": "PreparerName",
+                "field_type": "text_input",
+                "label_text": "Preparer's name",
+                "line_number": null,
+                "section_name": "Paid Preparer Use Only",
+                "description": null,
+                "location_hint": "Paid Preparer Use Only section, Preparer's name"
+            },
+            {
+                "field_name": "PreparerEmail",
+                "field_type": "text_input",
+                "label_text": "Email address",
+                "line_number": null,
+                "section_name": "Paid Preparer Use Only",
+                "description": null,
+                "location_hint": "Paid Preparer Use Only section, Email Address"
+            },
+            {
+                "field_name": "PreparerSignature",
+                "field_type": "signature_area",
+                "label_text": "Preparer's signature",
+                "line_number": null,
+                "section_name": "Paid Preparer Use Only",
+                "description": null,
+                "location_hint": "Paid Preparer Use Only section, Preparer's signature"
+            },
+            {
+                "field_name": "PreparerDate",
+                "field_type": "date_input",
+                "label_text": "Date",
+                "line_number": null,
+                "section_name": "Paid Preparer Use Only",
+                "description": null,
+                "location_hint": "Paid Preparer Use Only section, Date"
+            },
+            {
+                "field_name": "PTIN",
+                "field_type": "text_input",
+                "label_text": "PTIN",
+                "line_number": null,
+                "section_name": "Paid Preparer Use Only",
+                "description": null,
+                "location_hint": "Paid Preparer Use Only section, PTIN"
+            },
+            {
+                "field_name": "SelfEmployed",
+                "field_type": "checkbox",
+                "label_text": "Self-employed",
+                "line_number": null,
+                "section_name": "Paid Preparer Use Only",
+                "description": null,
+                "location_hint": "Paid Preparer Use Only section, Check if: Self-employed"
+            },
+            {
+                "field_name": "FirmName",
+                "field_type": "text_input",
+                "label_text": "Firm's name",
+                "line_number": null,
+                "section_name": "Paid Preparer Use Only",
+                "description": null,
+                "location_hint": "Paid Preparer Use Only section, Firm's name"
+            },
+            {
+                "field_name": "FirmAddress",
+                "field_type": "text_input",
+                "label_text": "Firm's address",
+                "line_number": null,
+                "section_name": "Paid Preparer Use Only",
+                "description": null,
+                "location_hint": "Paid Preparer Use Only section, Firm's address"
+            },
+            {
+                "field_name": "FirmPhoneNumber",
+                "field_type": "text_input",
+                "label_text": "Phone no.",
+                "line_number": null,
+                "section_name": "Paid Preparer Use Only",
+                "description": null,
+                "location_hint": "Paid Preparer Use Only section, Phone no. next to Firm's name"
+            },
+            {
+                "field_name": "FirmEIN",
+                "field_type": "text_input",
+                "label_text": "Firm's EIN",
+                "line_number": null,
+                "section_name": "Paid Preparer Use Only",
+                "description": null,
+                "location_hint": "Paid Preparer Use Only section, Firm's EIN"
+            }
+        ]
+    }
+}

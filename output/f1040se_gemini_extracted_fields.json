@@ -1,0 +1,1711 @@
+{
+    "page_1": {
+        "fields": [
+            {
+                "field_name": "SchedE_NameShownOnReturn",
+                "field_type": "text_input",
+                "label_text": "Name(s) shown on return",
+                "line_number": null,
+                "section_name": "Header",
+                "description": null,
+                "location_hint": "Top left below form title"
+            },
+            {
+                "field_name": "SchedE_SSN",
+                "field_type": "ssn_input",
+                "label_text": "Your social security number",
+                "line_number": null,
+                "section_name": "Header",
+                "description": null,
+                "location_hint": "Top right, below form number"
+            },
+            {
+                "field_name": "SchedE_LineA_1099Payments_Yes",
+                "field_type": "checkbox",
+                "label_text": "Yes",
+                "line_number": "A",
+                "section_name": "Part I",
+                "description": "Did you make any payments in 2024 that would require you to file Form(s) 1099?",
+                "location_hint": "Part I, line A, Yes checkbox"
+            },
+            {
+                "field_name": "SchedE_LineA_1099Payments_No",
+                "field_type": "checkbox",
+                "label_text": "No",
+                "line_number": "A",
+                "section_name": "Part I",
+                "description": "Did you make any payments in 2024 that would require you to file Form(s) 1099?",
+                "location_hint": "Part I, line A, No checkbox"
+            },
+            {
+                "field_name": "SchedE_LineB_Filed1099_Yes",
+                "field_type": "checkbox",
+                "label_text": "Yes",
+                "line_number": "B",
+                "section_name": "Part I",
+                "description": "If 'Yes,' did you or will you file required Form(s) 1099?",
+                "location_hint": "Part I, line B, Yes checkbox"
+            },
+            {
+                "field_name": "SchedE_LineB_Filed1099_No",
+                "field_type": "checkbox",
+                "label_text": "No",
+                "line_number": "B",
+                "section_name": "Part I",
+                "description": "If 'Yes,' did you or will you file required Form(s) 1099?",
+                "location_hint": "Part I, line B, No checkbox"
+            },
+            {
+                "field_name": "SchedE_Line1a_AddressA",
+                "field_type": "text_input",
+                "label_text": "Physical address of each property (street, city, state, ZIP code)",
+                "line_number": "1a",
+                "section_name": "Part I",
+                "description": "Address of property A",
+                "location_hint": "Part I, line 1a, row A"
+            },
+            {
+                "field_name": "SchedE_Line1a_AddressB",
+                "field_type": "text_input",
+                "label_text": "Physical address of each property (street, city, state, ZIP code)",
+                "line_number": "1a",
+                "section_name": "Part I",
+                "description": "Address of property B",
+                "location_hint": "Part I, line 1a, row B"
+            },
+            {
+                "field_name": "SchedE_Line1a_AddressC",
+                "field_type": "text_input",
+                "label_text": "Physical address of each property (street, city, state, ZIP code)",
+                "line_number": "1a",
+                "section_name": "Part I",
+                "description": "Address of property C",
+                "location_hint": "Part I, line 1a, row C"
+            },
+            {
+                "field_name": "SchedE_Line1b_PropertyTypeA",
+                "field_type": "numeric_input",
+                "label_text": "Type of Property (from list below)",
+                "line_number": "1b",
+                "section_name": "Part I",
+                "description": "Enter code from list 1-8 for property A type",
+                "location_hint": "Part I, line 1b, row A, first column"
+            },
+            {
+                "field_name": "SchedE_Line1b_PropertyTypeB",
+                "field_type": "numeric_input",
+                "label_text": "Type of Property (from list below)",
+                "line_number": "1b",
+                "section_name": "Part I",
+                "description": "Enter code from list 1-8 for property B type",
+                "location_hint": "Part I, line 1b, row B, first column"
+            },
+            {
+                "field_name": "SchedE_Line1b_PropertyTypeC",
+                "field_type": "numeric_input",
+                "label_text": "Type of Property (from list below)",
+                "line_number": "1b",
+                "section_name": "Part I",
+                "description": "Enter code from list 1-8 for property C type",
+                "location_hint": "Part I, line 1b, row C, first column"
+            },
+            {
+                "field_name": "SchedE_Line2_FairRentalDaysA",
+                "field_type": "numeric_input",
+                "label_text": "Fair Rental Days",
+                "line_number": "2",
+                "section_name": "Part I",
+                "description": "Number of days property A was rented at fair rental price",
+                "location_hint": "Part I, line 2, row A, Fair Rental Days column"
+            },
+            {
+                "field_name": "SchedE_Line2_FairRentalDaysB",
+                "field_type": "numeric_input",
+                "label_text": "Fair Rental Days",
+                "line_number": "2",
+                "section_name": "Part I",
+                "description": "Number of days property B was rented at fair rental price",
+                "location_hint": "Part I, line 2, row B, Fair Rental Days column"
+            },
+            {
+                "field_name": "SchedE_Line2_FairRentalDaysC",
+                "field_type": "numeric_input",
+                "label_text": "Fair Rental Days",
+                "line_number": "2",
+                "section_name": "Part I",
+                "description": "Number of days property C was rented at fair rental price",
+                "location_hint": "Part I, line 2, row C, Fair Rental Days column"
+            },
+            {
+                "field_name": "SchedE_Line2_PersonalUseDaysA",
+                "field_type": "numeric_input",
+                "label_text": "Personal Use Days",
+                "line_number": "2",
+                "section_name": "Part I",
+                "description": "Number of days property A was used personally",
+                "location_hint": "Part I, line 2, row A, Personal Use Days column"
+            },
+            {
+                "field_name": "SchedE_Line2_PersonalUseDaysB",
+                "field_type": "numeric_input",
+                "label_text": "Personal Use Days",
+                "line_number": "2",
+                "section_name": "Part I",
+                "description": "Number of days property B was used personally",
+                "location_hint": "Part I, line 2, row B, Personal Use Days column"
+            },
+            {
+                "field_name": "SchedE_Line2_PersonalUseDaysC",
+                "field_type": "numeric_input",
+                "label_text": "Personal Use Days",
+                "line_number": "2",
+                "section_name": "Part I",
+                "description": "Number of days property C was used personally",
+                "location_hint": "Part I, line 2, row C, Personal Use Days column"
+            },
+            {
+                "field_name": "SchedE_Line2_QJVA",
+                "field_type": "checkbox",
+                "label_text": "QJV",
+                "line_number": "2",
+                "section_name": "Part I",
+                "description": "Check if property A is part of a qualified joint venture",
+                "location_hint": "Part I, line 2, row A, QJV column"
+            },
+            {
+                "field_name": "SchedE_Line2_QJVB",
+                "field_type": "checkbox",
+                "label_text": "QJV",
+                "line_number": "2",
+                "section_name": "Part I",
+                "description": "Check if property B is part of a qualified joint venture",
+                "location_hint": "Part I, line 2, row B, QJV column"
+            },
+            {
+                "field_name": "SchedE_Line2_QJVC",
+                "field_type": "checkbox",
+                "label_text": "QJV",
+                "line_number": "2",
+                "section_name": "Part I",
+                "description": "Check if property C is part of a qualified joint venture",
+                "location_hint": "Part I, line 2, row C, QJV column"
+            },
+            {
+                "field_name": "SchedE_PropertyType_Description",
+                "field_type": "text_input",
+                "label_text": "8 Other (describe)",
+                "line_number": null,
+                "section_name": "Part I - Type of Property",
+                "description": "Describe the type of property if code 8 is used",
+                "location_hint": "Part I, below property type list"
+            },
+            {
+                "field_name": "SchedE_Line3_RentsReceivedA",
+                "field_type": "numeric_input",
+                "label_text": "Rents received",
+                "line_number": "3",
+                "section_name": "Income",
+                "description": "Rents received for property A",
+                "location_hint": "Income section, line 3, column A"
+            },
+            {
+                "field_name": "SchedE_Line3_RentsReceivedB",
+                "field_type": "numeric_input",
+                "label_text": "Rents received",
+                "line_number": "3",
+                "section_name": "Income",
+                "description": "Rents received for property B",
+                "location_hint": "Income section, line 3, column B"
+            },
+            {
+                "field_name": "SchedE_Line3_RentsReceivedC",
+                "field_type": "numeric_input",
+                "label_text": "Rents received",
+                "line_number": "3",
+                "section_name": "Income",
+                "description": "Rents received for property C",
+                "location_hint": "Income section, line 3, column C"
+            },
+            {
+                "field_name": "SchedE_Line4_RoyaltiesReceivedA",
+                "field_type": "numeric_input",
+                "label_text": "Royalties received",
+                "line_number": "4",
+                "section_name": "Income",
+                "description": "Royalties received for property A",
+                "location_hint": "Income section, line 4, column A"
+            },
+            {
+                "field_name": "SchedE_Line4_RoyaltiesReceivedB",
+                "field_type": "numeric_input",
+                "label_text": "Royalties received",
+                "line_number": "4",
+                "section_name": "Income",
+                "description": "Royalties received for property B",
+                "location_hint": "Income section, line 4, column B"
+            },
+            {
+                "field_name": "SchedE_Line4_RoyaltiesReceivedC",
+                "field_type": "numeric_input",
+                "label_text": "Royalties received",
+                "line_number": "4",
+                "section_name": "Income",
+                "description": "Royalties received for property C",
+                "location_hint": "Income section, line 4, column C"
+            },
+            {
+                "field_name": "SchedE_Line5_AdvertisingA",
+                "field_type": "numeric_input",
+                "label_text": "Advertising",
+                "line_number": "5",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 5, column A"
+            },
+            {
+                "field_name": "SchedE_Line5_AdvertisingB",
+                "field_type": "numeric_input",
+                "label_text": "Advertising",
+                "line_number": "5",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 5, column B"
+            },
+            {
+                "field_name": "SchedE_Line5_AdvertisingC",
+                "field_type": "numeric_input",
+                "label_text": "Advertising",
+                "line_number": "5",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 5, column C"
+            },
+            {
+                "field_name": "SchedE_Line6_AutoTravelA",
+                "field_type": "numeric_input",
+                "label_text": "Auto and travel (see instructions)",
+                "line_number": "6",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 6, column A"
+            },
+            {
+                "field_name": "SchedE_Line6_AutoTravelB",
+                "field_type": "numeric_input",
+                "label_text": "Auto and travel (see instructions)",
+                "line_number": "6",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 6, column B"
+            },
+            {
+                "field_name": "SchedE_Line6_AutoTravelC",
+                "field_type": "numeric_input",
+                "label_text": "Auto and travel (see instructions)",
+                "line_number": "6",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 6, column C"
+            },
+            {
+                "field_name": "SchedE_Line7_CleaningMaintenanceA",
+                "field_type": "numeric_input",
+                "label_text": "Cleaning and maintenance",
+                "line_number": "7",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 7, column A"
+            },
+            {
+                "field_name": "SchedE_Line7_CleaningMaintenanceB",
+                "field_type": "numeric_input",
+                "label_text": "Cleaning and maintenance",
+                "line_number": "7",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 7, column B"
+            },
+            {
+                "field_name": "SchedE_Line7_CleaningMaintenanceC",
+                "field_type": "numeric_input",
+                "label_text": "Cleaning and maintenance",
+                "line_number": "7",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 7, column C"
+            },
+            {
+                "field_name": "SchedE_Line8_CommissionsA",
+                "field_type": "numeric_input",
+                "label_text": "Commissions",
+                "line_number": "8",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 8, column A"
+            },
+            {
+                "field_name": "SchedE_Line8_CommissionsB",
+                "field_type": "numeric_input",
+                "label_text": "Commissions",
+                "line_number": "8",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 8, column B"
+            },
+            {
+                "field_name": "SchedE_Line8_CommissionsC",
+                "field_type": "numeric_input",
+                "label_text": "Commissions",
+                "line_number": "8",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 8, column C"
+            },
+            {
+                "field_name": "SchedE_Line9_InsuranceA",
+                "field_type": "numeric_input",
+                "label_text": "Insurance",
+                "line_number": "9",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 9, column A"
+            },
+            {
+                "field_name": "SchedE_Line9_InsuranceB",
+                "field_type": "numeric_input",
+                "label_text": "Insurance",
+                "line_number": "9",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 9, column B"
+            },
+            {
+                "field_name": "SchedE_Line9_InsuranceC",
+                "field_type": "numeric_input",
+                "label_text": "Insurance",
+                "line_number": "9",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 9, column C"
+            },
+            {
+                "field_name": "SchedE_Line10_LegalProfessionalFeesA",
+                "field_type": "numeric_input",
+                "label_text": "Legal and other professional fees",
+                "line_number": "10",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 10, column A"
+            },
+            {
+                "field_name": "SchedE_Line10_LegalProfessionalFeesB",
+                "field_type": "numeric_input",
+                "label_text": "Legal and other professional fees",
+                "line_number": "10",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 10, column B"
+            },
+            {
+                "field_name": "SchedE_Line10_LegalProfessionalFeesC",
+                "field_type": "numeric_input",
+                "label_text": "Legal and other professional fees",
+                "line_number": "10",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 10, column C"
+            },
+            {
+                "field_name": "SchedE_Line11_ManagementFeesA",
+                "field_type": "numeric_input",
+                "label_text": "Management fees",
+                "line_number": "11",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 11, column A"
+            },
+            {
+                "field_name": "SchedE_Line11_ManagementFeesB",
+                "field_type": "numeric_input",
+                "label_text": "Management fees",
+                "line_number": "11",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 11, column B"
+            },
+            {
+                "field_name": "SchedE_Line11_ManagementFeesC",
+                "field_type": "numeric_input",
+                "label_text": "Management fees",
+                "line_number": "11",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 11, column C"
+            },
+            {
+                "field_name": "SchedE_Line12_MortgageInterestBanksA",
+                "field_type": "numeric_input",
+                "label_text": "Mortgage interest paid to banks, etc. (see instructions)",
+                "line_number": "12",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 12, column A"
+            },
+            {
+                "field_name": "SchedE_Line12_MortgageInterestBanksB",
+                "field_type": "numeric_input",
+                "label_text": "Mortgage interest paid to banks, etc. (see instructions)",
+                "line_number": "12",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 12, column B"
+            },
+            {
+                "field_name": "SchedE_Line12_MortgageInterestBanksC",
+                "field_type": "numeric_input",
+                "label_text": "Mortgage interest paid to banks, etc. (see instructions)",
+                "line_number": "12",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 12, column C"
+            },
+            {
+                "field_name": "SchedE_Line13_OtherInterestA",
+                "field_type": "numeric_input",
+                "label_text": "Other interest",
+                "line_number": "13",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 13, column A"
+            },
+            {
+                "field_name": "SchedE_Line13_OtherInterestB",
+                "field_type": "numeric_input",
+                "label_text": "Other interest",
+                "line_number": "13",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 13, column B"
+            },
+            {
+                "field_name": "SchedE_Line13_OtherInterestC",
+                "field_type": "numeric_input",
+                "label_text": "Other interest",
+                "line_number": "13",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 13, column C"
+            },
+            {
+                "field_name": "SchedE_Line14_RepairsA",
+                "field_type": "numeric_input",
+                "label_text": "Repairs",
+                "line_number": "14",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 14, column A"
+            },
+            {
+                "field_name": "SchedE_Line14_RepairsB",
+                "field_type": "numeric_input",
+                "label_text": "Repairs",
+                "line_number": "14",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 14, column B"
+            },
+            {
+                "field_name": "SchedE_Line14_RepairsC",
+                "field_type": "numeric_input",
+                "label_text": "Repairs",
+                "line_number": "14",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 14, column C"
+            },
+            {
+                "field_name": "SchedE_Line15_SuppliesA",
+                "field_type": "numeric_input",
+                "label_text": "Supplies",
+                "line_number": "15",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 15, column A"
+            },
+            {
+                "field_name": "SchedE_Line15_SuppliesB",
+                "field_type": "numeric_input",
+                "label_text": "Supplies",
+                "line_number": "15",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 15, column B"
+            },
+            {
+                "field_name": "SchedE_Line15_SuppliesC",
+                "field_type": "numeric_input",
+                "label_text": "Supplies",
+                "line_number": "15",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 15, column C"
+            },
+            {
+                "field_name": "SchedE_Line16_TaxesA",
+                "field_type": "numeric_input",
+                "label_text": "Taxes",
+                "line_number": "16",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 16, column A"
+            },
+            {
+                "field_name": "SchedE_Line16_TaxesB",
+                "field_type": "numeric_input",
+                "label_text": "Taxes",
+                "line_number": "16",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 16, column B"
+            },
+            {
+                "field_name": "SchedE_Line16_TaxesC",
+                "field_type": "numeric_input",
+                "label_text": "Taxes",
+                "line_number": "16",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 16, column C"
+            },
+            {
+                "field_name": "SchedE_Line17_UtilitiesA",
+                "field_type": "numeric_input",
+                "label_text": "Utilities",
+                "line_number": "17",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 17, column A"
+            },
+            {
+                "field_name": "SchedE_Line17_UtilitiesB",
+                "field_type": "numeric_input",
+                "label_text": "Utilities",
+                "line_number": "17",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 17, column B"
+            },
+            {
+                "field_name": "SchedE_Line17_UtilitiesC",
+                "field_type": "numeric_input",
+                "label_text": "Utilities",
+                "line_number": "17",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 17, column C"
+            },
+            {
+                "field_name": "SchedE_Line18_DepreciationDepletionA",
+                "field_type": "numeric_input",
+                "label_text": "Depreciation expense or depletion",
+                "line_number": "18",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 18, column A"
+            },
+            {
+                "field_name": "SchedE_Line18_DepreciationDepletionB",
+                "field_type": "numeric_input",
+                "label_text": "Depreciation expense or depletion",
+                "line_number": "18",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 18, column B"
+            },
+            {
+                "field_name": "SchedE_Line18_DepreciationDepletionC",
+                "field_type": "numeric_input",
+                "label_text": "Depreciation expense or depletion",
+                "line_number": "18",
+                "section_name": "Expenses",
+                "description": null,
+                "location_hint": "Expenses section, line 18, column C"
+            },
+            {
+                "field_name": "SchedE_Line19_OtherExpenseDescription",
+                "field_type": "text_input",
+                "label_text": "Other (list)",
+                "line_number": "19",
+                "section_name": "Expenses",
+                "description": "Description for other expenses",
+                "location_hint": "Expenses section, line 19, description field"
+            },
+            {
+                "field_name": "SchedE_Line19_OtherExpenseA",
+                "field_type": "numeric_input",
+                "label_text": "Other (list)",
+                "line_number": "19",
+                "section_name": "Expenses",
+                "description": "Other expenses for property A",
+                "location_hint": "Expenses section, line 19, column A"
+            },
+            {
+                "field_name": "SchedE_Line19_OtherExpenseB",
+                "field_type": "numeric_input",
+                "label_text": "Other (list)",
+                "line_number": "19",
+                "section_name": "Expenses",
+                "description": "Other expenses for property B",
+                "location_hint": "Expenses section, line 19, column B"
+            },
+            {
+                "field_name": "SchedE_Line19_OtherExpenseC",
+                "field_type": "numeric_input",
+                "label_text": "Other (list)",
+                "line_number": "19",
+                "section_name": "Expenses",
+                "description": "Other expenses for property C",
+                "location_hint": "Expenses section, line 19, column C"
+            },
+            {
+                "field_name": "SchedE_Line20_TotalExpensesA",
+                "field_type": "numeric_input",
+                "label_text": "Total expenses. Add lines 5 through 19",
+                "line_number": "20",
+                "section_name": "Expenses",
+                "description": "Total expenses for property A",
+                "location_hint": "Expenses section, line 20, column A"
+            },
+            {
+                "field_name": "SchedE_Line20_TotalExpensesB",
+                "field_type": "numeric_input",
+                "label_text": "Total expenses. Add lines 5 through 19",
+                "line_number": "20",
+                "section_name": "Expenses",
+                "description": "Total expenses for property B",
+                "location_hint": "Expenses section, line 20, column B"
+            },
+            {
+                "field_name": "SchedE_Line20_TotalExpensesC",
+                "field_type": "numeric_input",
+                "label_text": "Total expenses. Add lines 5 through 19",
+                "line_number": "20",
+                "section_name": "Expenses",
+                "description": "Total expenses for property C",
+                "location_hint": "Expenses section, line 20, column C"
+            },
+            {
+                "field_name": "SchedE_Line21_IncomeLossA",
+                "field_type": "numeric_input",
+                "label_text": "Subtract line 20 from line 3 (rents) and/or 4 (royalties)",
+                "line_number": "21",
+                "section_name": "Part I",
+                "description": "Income or (loss) for property A",
+                "location_hint": "Part I, line 21, column A"
+            },
+            {
+                "field_name": "SchedE_Line21_IncomeLossB",
+                "field_type": "numeric_input",
+                "label_text": "Subtract line 20 from line 3 (rents) and/or 4 (royalties)",
+                "line_number": "21",
+                "section_name": "Part I",
+                "description": "Income or (loss) for property B",
+                "location_hint": "Part I, line 21, column B"
+            },
+            {
+                "field_name": "SchedE_Line21_IncomeLossC",
+                "field_type": "numeric_input",
+                "label_text": "Subtract line 20 from line 3 (rents) and/or 4 (royalties)",
+                "line_number": "21",
+                "section_name": "Part I",
+                "description": "Income or (loss) for property C",
+                "location_hint": "Part I, line 21, column C"
+            },
+            {
+                "field_name": "SchedE_Line22_DeductibleLossA",
+                "field_type": "numeric_input",
+                "label_text": "Deductible rental real estate loss after limitation, if any, from Form 8582 (see instructions)",
+                "line_number": "22",
+                "section_name": "Part I",
+                "description": "Deductible loss for property A",
+                "location_hint": "Part I, line 22, column A"
+            },
+            {
+                "field_name": "SchedE_Line22_DeductibleLossB",
+                "field_type": "numeric_input",
+                "label_text": "Deductible rental real estate loss after limitation, if any, from Form 8582 (see instructions)",
+                "line_number": "22",
+                "section_name": "Part I",
+                "description": "Deductible loss for property B",
+                "location_hint": "Part I, line 22, column B"
+            },
+            {
+                "field_name": "SchedE_Line22_DeductibleLossC",
+                "field_type": "numeric_input",
+                "label_text": "Deductible rental real estate loss after limitation, if any, from Form 8582 (see instructions)",
+                "line_number": "22",
+                "section_name": "Part I",
+                "description": "Deductible loss for property C",
+                "location_hint": "Part I, line 22, column C"
+            },
+            {
+                "field_name": "SchedE_Line23a_TotalRents",
+                "field_type": "numeric_input",
+                "label_text": "Total of all amounts reported on line 3 for all rental properties",
+                "line_number": "23a",
+                "section_name": "Part I - Totals",
+                "description": null,
+                "location_hint": "Part I, line 23a"
+            },
+            {
+                "field_name": "SchedE_Line23b_TotalRoyalties",
+                "field_type": "numeric_input",
+                "label_text": "Total of all amounts reported on line 4 for all royalty properties",
+                "line_number": "23b",
+                "section_name": "Part I - Totals",
+                "description": null,
+                "location_hint": "Part I, line 23b"
+            },
+            {
+                "field_name": "SchedE_Line23c_TotalMortgageInterest",
+                "field_type": "numeric_input",
+                "label_text": "Total of all amounts reported on line 12 for all properties",
+                "line_number": "23c",
+                "section_name": "Part I - Totals",
+                "description": null,
+                "location_hint": "Part I, line 23c"
+            },
+            {
+                "field_name": "SchedE_Line23d_TotalDepreciationDepletion",
+                "field_type": "numeric_input",
+                "label_text": "Total of all amounts reported on line 18 for all properties",
+                "line_number": "23d",
+                "section_name": "Part I - Totals",
+                "description": null,
+                "location_hint": "Part I, line 23d"
+            },
+            {
+                "field_name": "SchedE_Line23e_TotalExpenses",
+                "field_type": "numeric_input",
+                "label_text": "Total of all amounts reported on line 20 for all properties",
+                "line_number": "23e",
+                "section_name": "Part I - Totals",
+                "description": null,
+                "location_hint": "Part I, line 23e"
+            },
+            {
+                "field_name": "SchedE_Line24_Income",
+                "field_type": "numeric_input",
+                "label_text": "Income. Add positive amounts shown on line 21. Do not include any losses",
+                "line_number": "24",
+                "section_name": "Part I - Summary",
+                "description": null,
+                "location_hint": "Part I, line 24"
+            },
+            {
+                "field_name": "SchedE_Line25_Losses",
+                "field_type": "numeric_input",
+                "label_text": "Losses. Add royalty losses from line 21 and rental real estate losses from line 22. Enter total losses here",
+                "line_number": "25",
+                "section_name": "Part I - Summary",
+                "description": null,
+                "location_hint": "Part I, line 25"
+            },
+            {
+                "field_name": "SchedE_Line26_TotalIncomeLoss",
+                "field_type": "numeric_input",
+                "label_text": "Total rental real estate and royalty income or (loss). Combine lines 24 and 25. Enter the result here.",
+                "line_number": "26",
+                "section_name": "Part I - Summary",
+                "description": null,
+                "location_hint": "Part I, line 26"
+            }
+        ]
+    },
+    "page_2": {
+        "fields": [
+            {
+                "field_name": "SocialSecurityNumber",
+                "field_type": "ssn_input",
+                "label_text": "Your social security number",
+                "line_number": null,
+                "section_name": null,
+                "description": null,
+                "location_hint": "Top right corner"
+            },
+            {
+                "field_name": "PartII_Line27_ReportingPriorYearLossYes",
+                "field_type": "checkbox",
+                "label_text": "Yes",
+                "line_number": "27",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Check 'Yes' if reporting a loss not allowed in a prior year.",
+                "location_hint": "Line 27, right side"
+            },
+            {
+                "field_name": "PartII_Line27_ReportingPriorYearLossNo",
+                "field_type": "checkbox",
+                "label_text": "No",
+                "line_number": "27",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Check 'No' if not reporting a loss not allowed in a prior year.",
+                "location_hint": "Line 27, right side"
+            },
+            {
+                "field_name": "PartII_Line28A_Name",
+                "field_type": "text_input",
+                "label_text": "(a) Name",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Name of partnership or S corporation",
+                "location_hint": "Line 28, row A, column (a)"
+            },
+            {
+                "field_name": "PartII_Line28A_TypePS",
+                "field_type": "text_input",
+                "label_text": "(b) Enter P for partnership; S for S corporation",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Enter P for partnership or S for S corporation",
+                "location_hint": "Line 28, row A, column (b)"
+            },
+            {
+                "field_name": "PartII_Line28A_CheckForeignPartnership",
+                "field_type": "checkbox",
+                "label_text": "(c) Check if foreign partnership",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Check if it is a foreign partnership",
+                "location_hint": "Line 28, row A, column (c)"
+            },
+            {
+                "field_name": "PartII_Line28A_EmployerIDNumber",
+                "field_type": "numeric_input",
+                "label_text": "(d) Employer identification number",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Employer identification number (EIN)",
+                "location_hint": "Line 28, row A, column (d)"
+            },
+            {
+                "field_name": "PartII_Line28A_CheckBasisComputationRequired",
+                "field_type": "checkbox",
+                "label_text": "(e) Check if basis computation is required",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Check if basis computation is required",
+                "location_hint": "Line 28, row A, column (e)"
+            },
+            {
+                "field_name": "PartII_Line28A_CheckAmountNotAtRisk",
+                "field_type": "checkbox",
+                "label_text": "(f) Check if any amount is not at risk",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Check if any amount is not at risk",
+                "location_hint": "Line 28, row A, column (f)"
+            },
+            {
+                "field_name": "PartII_Line28A_PassiveLossAllowed",
+                "field_type": "numeric_input",
+                "label_text": "(g) Passive loss allowed (attach Form 8582 if required)",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Passive loss allowed",
+                "location_hint": "Line 28, row A, column (g)"
+            },
+            {
+                "field_name": "PartII_Line28A_PassiveIncomeFromScheduleK1",
+                "field_type": "numeric_input",
+                "label_text": "(h) Passive income from Schedule K-1",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Passive income from Schedule K-1",
+                "location_hint": "Line 28, row A, column (h)"
+            },
+            {
+                "field_name": "PartII_Line28A_NonpassiveLossAllowed",
+                "field_type": "numeric_input",
+                "label_text": "(i) Nonpassive loss allowed (see Schedule K-1)",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Nonpassive loss allowed",
+                "location_hint": "Line 28, row A, column (i)"
+            },
+            {
+                "field_name": "PartII_Line28A_Section179ExpenseDeduction",
+                "field_type": "numeric_input",
+                "label_text": "(j) Section 179 expense deduction from Form 4562",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Section 179 expense deduction",
+                "location_hint": "Line 28, row A, column (j)"
+            },
+            {
+                "field_name": "PartII_Line28A_NonpassiveIncomeFromScheduleK1",
+                "field_type": "numeric_input",
+                "label_text": "(k) Nonpassive income from Schedule K-1",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Nonpassive income from Schedule K-1",
+                "location_hint": "Line 28, row A, column (k)"
+            },
+            {
+                "field_name": "PartII_Line28B_Name",
+                "field_type": "text_input",
+                "label_text": "(a) Name",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Name of partnership or S corporation",
+                "location_hint": "Line 28, row B, column (a)"
+            },
+            {
+                "field_name": "PartII_Line28B_TypePS",
+                "field_type": "text_input",
+                "label_text": "(b) Enter P for partnership; S for S corporation",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Enter P for partnership or S for S corporation",
+                "location_hint": "Line 28, row B, column (b)"
+            },
+            {
+                "field_name": "PartII_Line28B_CheckForeignPartnership",
+                "field_type": "checkbox",
+                "label_text": "(c) Check if foreign partnership",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Check if it is a foreign partnership",
+                "location_hint": "Line 28, row B, column (c)"
+            },
+            {
+                "field_name": "PartII_Line28B_EmployerIDNumber",
+                "field_type": "numeric_input",
+                "label_text": "(d) Employer identification number",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Employer identification number (EIN)",
+                "location_hint": "Line 28, row B, column (d)"
+            },
+            {
+                "field_name": "PartII_Line28B_CheckBasisComputationRequired",
+                "field_type": "checkbox",
+                "label_text": "(e) Check if basis computation is required",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Check if basis computation is required",
+                "location_hint": "Line 28, row B, column (e)"
+            },
+            {
+                "field_name": "PartII_Line28B_CheckAmountNotAtRisk",
+                "field_type": "checkbox",
+                "label_text": "(f) Check if any amount is not at risk",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Check if any amount is not at risk",
+                "location_hint": "Line 28, row B, column (f)"
+            },
+            {
+                "field_name": "PartII_Line28B_PassiveLossAllowed",
+                "field_type": "numeric_input",
+                "label_text": "(g) Passive loss allowed (attach Form 8582 if required)",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Passive loss allowed",
+                "location_hint": "Line 28, row B, column (g)"
+            },
+            {
+                "field_name": "PartII_Line28B_PassiveIncomeFromScheduleK1",
+                "field_type": "numeric_input",
+                "label_text": "(h) Passive income from Schedule K-1",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Passive income from Schedule K-1",
+                "location_hint": "Line 28, row B, column (h)"
+            },
+            {
+                "field_name": "PartII_Line28B_NonpassiveLossAllowed",
+                "field_type": "numeric_input",
+                "label_text": "(i) Nonpassive loss allowed (see Schedule K-1)",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Nonpassive loss allowed",
+                "location_hint": "Line 28, row B, column (i)"
+            },
+            {
+                "field_name": "PartII_Line28B_Section179ExpenseDeduction",
+                "field_type": "numeric_input",
+                "label_text": "(j) Section 179 expense deduction from Form 4562",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Section 179 expense deduction",
+                "location_hint": "Line 28, row B, column (j)"
+            },
+            {
+                "field_name": "PartII_Line28B_NonpassiveIncomeFromScheduleK1",
+                "field_type": "numeric_input",
+                "label_text": "(k) Nonpassive income from Schedule K-1",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Nonpassive income from Schedule K-1",
+                "location_hint": "Line 28, row B, column (k)"
+            },
+            {
+                "field_name": "PartII_Line28C_Name",
+                "field_type": "text_input",
+                "label_text": "(a) Name",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Name of partnership or S corporation",
+                "location_hint": "Line 28, row C, column (a)"
+            },
+            {
+                "field_name": "PartII_Line28C_TypePS",
+                "field_type": "text_input",
+                "label_text": "(b) Enter P for partnership; S for S corporation",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Enter P for partnership or S for S corporation",
+                "location_hint": "Line 28, row C, column (b)"
+            },
+            {
+                "field_name": "PartII_Line28C_CheckForeignPartnership",
+                "field_type": "checkbox",
+                "label_text": "(c) Check if foreign partnership",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Check if it is a foreign partnership",
+                "location_hint": "Line 28, row C, column (c)"
+            },
+            {
+                "field_name": "PartII_Line28C_EmployerIDNumber",
+                "field_type": "numeric_input",
+                "label_text": "(d) Employer identification number",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Employer identification number (EIN)",
+                "location_hint": "Line 28, row C, column (d)"
+            },
+            {
+                "field_name": "PartII_Line28C_CheckBasisComputationRequired",
+                "field_type": "checkbox",
+                "label_text": "(e) Check if basis computation is required",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Check if basis computation is required",
+                "location_hint": "Line 28, row C, column (e)"
+            },
+            {
+                "field_name": "PartII_Line28C_CheckAmountNotAtRisk",
+                "field_type": "checkbox",
+                "label_text": "(f) Check if any amount is not at risk",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Check if any amount is not at risk",
+                "location_hint": "Line 28, row C, column (f)"
+            },
+            {
+                "field_name": "PartII_Line28C_PassiveLossAllowed",
+                "field_type": "numeric_input",
+                "label_text": "(g) Passive loss allowed (attach Form 8582 if required)",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Passive loss allowed",
+                "location_hint": "Line 28, row C, column (g)"
+            },
+            {
+                "field_name": "PartII_Line28C_PassiveIncomeFromScheduleK1",
+                "field_type": "numeric_input",
+                "label_text": "(h) Passive income from Schedule K-1",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Passive income from Schedule K-1",
+                "location_hint": "Line 28, row C, column (h)"
+            },
+            {
+                "field_name": "PartII_Line28C_NonpassiveLossAllowed",
+                "field_type": "numeric_input",
+                "label_text": "(i) Nonpassive loss allowed (see Schedule K-1)",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Nonpassive loss allowed",
+                "location_hint": "Line 28, row C, column (i)"
+            },
+            {
+                "field_name": "PartII_Line28C_Section179ExpenseDeduction",
+                "field_type": "numeric_input",
+                "label_text": "(j) Section 179 expense deduction from Form 4562",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Section 179 expense deduction",
+                "location_hint": "Line 28, row C, column (j)"
+            },
+            {
+                "field_name": "PartII_Line28C_NonpassiveIncomeFromScheduleK1",
+                "field_type": "numeric_input",
+                "label_text": "(k) Nonpassive income from Schedule K-1",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Nonpassive income from Schedule K-1",
+                "location_hint": "Line 28, row C, column (k)"
+            },
+            {
+                "field_name": "PartII_Line28D_Name",
+                "field_type": "text_input",
+                "label_text": "(a) Name",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Name of partnership or S corporation",
+                "location_hint": "Line 28, row D, column (a)"
+            },
+            {
+                "field_name": "PartII_Line28D_TypePS",
+                "field_type": "text_input",
+                "label_text": "(b) Enter P for partnership; S for S corporation",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Enter P for partnership or S for S corporation",
+                "location_hint": "Line 28, row D, column (b)"
+            },
+            {
+                "field_name": "PartII_Line28D_CheckForeignPartnership",
+                "field_type": "checkbox",
+                "label_text": "(c) Check if foreign partnership",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Check if it is a foreign partnership",
+                "location_hint": "Line 28, row D, column (c)"
+            },
+            {
+                "field_name": "PartII_Line28D_EmployerIDNumber",
+                "field_type": "numeric_input",
+                "label_text": "(d) Employer identification number",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Employer identification number (EIN)",
+                "location_hint": "Line 28, row D, column (d)"
+            },
+            {
+                "field_name": "PartII_Line28D_CheckBasisComputationRequired",
+                "field_type": "checkbox",
+                "label_text": "(e) Check if basis computation is required",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Check if basis computation is required",
+                "location_hint": "Line 28, row D, column (e)"
+            },
+            {
+                "field_name": "PartII_Line28D_CheckAmountNotAtRisk",
+                "field_type": "checkbox",
+                "label_text": "(f) Check if any amount is not at risk",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Check if any amount is not at risk",
+                "location_hint": "Line 28, row D, column (f)"
+            },
+            {
+                "field_name": "PartII_Line28D_PassiveLossAllowed",
+                "field_type": "numeric_input",
+                "label_text": "(g) Passive loss allowed (attach Form 8582 if required)",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Passive loss allowed",
+                "location_hint": "Line 28, row D, column (g)"
+            },
+            {
+                "field_name": "PartII_Line28D_PassiveIncomeFromScheduleK1",
+                "field_type": "numeric_input",
+                "label_text": "(h) Passive income from Schedule K-1",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Passive income from Schedule K-1",
+                "location_hint": "Line 28, row D, column (h)"
+            },
+            {
+                "field_name": "PartII_Line28D_NonpassiveLossAllowed",
+                "field_type": "numeric_input",
+                "label_text": "(i) Nonpassive loss allowed (see Schedule K-1)",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Nonpassive loss allowed",
+                "location_hint": "Line 28, row D, column (i)"
+            },
+            {
+                "field_name": "PartII_Line28D_Section179ExpenseDeduction",
+                "field_type": "numeric_input",
+                "label_text": "(j) Section 179 expense deduction from Form 4562",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Section 179 expense deduction",
+                "location_hint": "Line 28, row D, column (j)"
+            },
+            {
+                "field_name": "PartII_Line28D_NonpassiveIncomeFromScheduleK1",
+                "field_type": "numeric_input",
+                "label_text": "(k) Nonpassive income from Schedule K-1",
+                "line_number": "28",
+                "section_name": "Part II - Income or Loss From Partnerships and S Corporations",
+                "description": "Nonpassive income from Schedule K-1",
+                "location_hint": "Line 28, row D, column (k)"
+            },
+            {
+                "field_name": "PartII_Line29a_TotalsPassiveLoss",
+                "field_type": "numeric_input",
+                "label_text": "Totals",
+                "line_number": "29a",
+                "section_name": "Part II - Passive Income and Loss",
+                "description": "Total passive loss allowed from line 28, column (g)",
+                "location_hint": "Line 29a, column (g)"
+            },
+            {
+                "field_name": "PartII_Line29a_TotalsPassiveIncome",
+                "field_type": "numeric_input",
+                "label_text": "Totals",
+                "line_number": "29a",
+                "section_name": "Part II - Passive Income and Loss",
+                "description": "Total passive income from line 28, column (h)",
+                "location_hint": "Line 29a, column (h)"
+            },
+            {
+                "field_name": "PartII_Line29a_TotalsNonpassiveLoss",
+                "field_type": "numeric_input",
+                "label_text": "Totals",
+                "line_number": "29a",
+                "section_name": "Part II - Nonpassive Income and Loss",
+                "description": "Total nonpassive loss allowed from line 28, column (i)",
+                "location_hint": "Line 29a, column (i)"
+            },
+            {
+                "field_name": "PartII_Line29a_TotalsSection179Deduction",
+                "field_type": "numeric_input",
+                "label_text": "Totals",
+                "line_number": "29a",
+                "section_name": "Part II - Nonpassive Income and Loss",
+                "description": "Total Section 179 expense deduction from line 28, column (j)",
+                "location_hint": "Line 29a, column (j)"
+            },
+            {
+                "field_name": "PartII_Line29a_TotalsNonpassiveIncome",
+                "field_type": "numeric_input",
+                "label_text": "Totals",
+                "line_number": "29a",
+                "section_name": "Part II - Nonpassive Income and Loss",
+                "description": "Total nonpassive income from line 28, column (k)",
+                "location_hint": "Line 29a, column (k)"
+            },
+            {
+                "field_name": "PartII_Line29b_TotalsPassiveLoss",
+                "field_type": "numeric_input",
+                "label_text": "Totals",
+                "line_number": "29b",
+                "section_name": "Part II - Passive Income and Loss",
+                "description": "Total passive loss allowed from line 28, column (g) if reporting on multiple lines",
+                "location_hint": "Line 29b, column (g)"
+            },
+            {
+                "field_name": "PartII_Line29b_TotalsPassiveIncome",
+                "field_type": "numeric_input",
+                "label_text": "Totals",
+                "line_number": "29b",
+                "section_name": "Part II - Passive Income and Loss",
+                "description": "Total passive income from line 28, column (h) if reporting on multiple lines",
+                "location_hint": "Line 29b, column (h)"
+            },
+            {
+                "field_name": "PartII_Line29b_TotalsNonpassiveLoss",
+                "field_type": "numeric_input",
+                "label_text": "Totals",
+                "line_number": "29b",
+                "section_name": "Part II - Nonpassive Income and Loss",
+                "description": "Total nonpassive loss allowed from line 28, column (i) if reporting on multiple lines",
+                "location_hint": "Line 29b, column (i)"
+            },
+            {
+                "field_name": "PartII_Line29b_TotalsSection179Deduction",
+                "field_type": "numeric_input",
+                "label_text": "Totals",
+                "line_number": "29b",
+                "section_name": "Part II - Nonpassive Income and Loss",
+                "description": "Total Section 179 expense deduction from line 28, column (j) if reporting on multiple lines",
+                "location_hint": "Line 29b, column (j)"
+            },
+            {
+                "field_name": "PartII_Line29b_TotalsNonpassiveIncome",
+                "field_type": "numeric_input",
+                "label_text": "Totals",
+                "line_number": "29b",
+                "section_name": "Part II - Nonpassive Income and Loss",
+                "description": "Total nonpassive income from line 28, column (k) if reporting on multiple lines",
+                "location_hint": "Line 29b, column (k)"
+            },
+            {
+                "field_name": "PartII_Line30_AddPassiveIncomeNonpassiveIncome",
+                "field_type": "numeric_input",
+                "label_text": "Add columns (h) and (k) of line 29a",
+                "line_number": "30",
+                "section_name": "Part II - Total partnership and S corporation income or (loss)",
+                "description": "Total passive income and nonpassive income from line 29a",
+                "location_hint": "Line 30, right side"
+            },
+            {
+                "field_name": "PartII_Line31_AddPassiveLossNonpassiveLossSection179",
+                "field_type": "numeric_input",
+                "label_text": "Add columns (g), (i), and (j) of line 29b",
+                "line_number": "31",
+                "section_name": "Part II - Total partnership and S corporation income or (loss)",
+                "description": "Total passive loss, nonpassive loss, and Section 179 deduction from line 29b",
+                "location_hint": "Line 31, right side"
+            },
+            {
+                "field_name": "PartII_Line32_TotalPartnershipSCorpIncomeLoss",
+                "field_type": "numeric_input",
+                "label_text": "Total partnership and S corporation income or (loss). Combine lines 30 and 31",
+                "line_number": "32",
+                "section_name": "Part II - Total partnership and S corporation income or (loss)",
+                "description": "Total income or loss from partnerships and S corporations",
+                "location_hint": "Line 32, right side"
+            },
+            {
+                "field_name": "PartIII_Line33A_Name",
+                "field_type": "text_input",
+                "label_text": "(a) Name",
+                "line_number": "33",
+                "section_name": "Part III - Income or Loss From Estates and Trusts",
+                "description": "Name of estate or trust",
+                "location_hint": "Line 33, row A, column (a)"
+            },
+            {
+                "field_name": "PartIII_Line33A_EmployerIDNumber",
+                "field_type": "numeric_input",
+                "label_text": "(b) Employer identification number",
+                "line_number": "33",
+                "section_name": "Part III - Income or Loss From Estates and Trusts",
+                "description": "Employer identification number (EIN)",
+                "location_hint": "Line 33, row A, column (b)"
+            },
+            {
+                "field_name": "PartIII_Line33A_PassiveLossAllowed",
+                "field_type": "numeric_input",
+                "label_text": "(c) Passive deduction or loss allowed (attach Form 8582 if required)",
+                "line_number": "33",
+                "section_name": "Part III - Passive Income and Loss",
+                "description": "Passive deduction or loss allowed",
+                "location_hint": "Line 33, row A, column (c)"
+            },
+            {
+                "field_name": "PartIII_Line33A_PassiveIncomeFromScheduleK1",
+                "field_type": "numeric_input",
+                "label_text": "(d) Passive income from Schedule K-1",
+                "line_number": "33",
+                "section_name": "Part III - Passive Income and Loss",
+                "description": "Passive income from Schedule K-1",
+                "location_hint": "Line 33, row A, column (d)"
+            },
+            {
+                "field_name": "PartIII_Line33A_NonpassiveDeductionLoss",
+                "field_type": "numeric_input",
+                "label_text": "(e) Deduction or loss from Schedule K-1",
+                "line_number": "33",
+                "section_name": "Part III - Nonpassive Income and Loss",
+                "description": "Nonpassive deduction or loss from Schedule K-1",
+                "location_hint": "Line 33, row A, column (e)"
+            },
+            {
+                "field_name": "PartIII_Line33A_NonpassiveOtherIncome",
+                "field_type": "numeric_input",
+                "label_text": "(f) Other income from Schedule K-1",
+                "line_number": "33",
+                "section_name": "Part III - Nonpassive Income and Loss",
+                "description": "Other nonpassive income from Schedule K-1",
+                "location_hint": "Line 33, row A, column (f)"
+            },
+            {
+                "field_name": "PartIII_Line33B_Name",
+                "field_type": "text_input",
+                "label_text": "(a) Name",
+                "line_number": "33",
+                "section_name": "Part III - Income or Loss From Estates and Trusts",
+                "description": "Name of estate or trust",
+                "location_hint": "Line 33, row B, column (a)"
+            },
+            {
+                "field_name": "PartIII_Line33B_EmployerIDNumber",
+                "field_type": "numeric_input",
+                "label_text": "(b) Employer identification number",
+                "line_number": "33",
+                "section_name": "Part III - Income or Loss From Estates and Trusts",
+                "description": "Employer identification number (EIN)",
+                "location_hint": "Line 33, row B, column (b)"
+            },
+            {
+                "field_name": "PartIII_Line33B_PassiveLossAllowed",
+                "field_type": "numeric_input",
+                "label_text": "(c) Passive deduction or loss allowed (attach Form 8582 if required)",
+                "line_number": "33",
+                "section_name": "Part III - Passive Income and Loss",
+                "description": "Passive deduction or loss allowed",
+                "location_hint": "Line 33, row B, column (c)"
+            },
+            {
+                "field_name": "PartIII_Line33B_PassiveIncomeFromScheduleK1",
+                "field_type": "numeric_input",
+                "label_text": "(d) Passive income from Schedule K-1",
+                "line_number": "33",
+                "section_name": "Part III - Passive Income and Loss",
+                "description": "Passive income from Schedule K-1",
+                "location_hint": "Line 33, row B, column (d)"
+            },
+            {
+                "field_name": "PartIII_Line33B_NonpassiveDeductionLoss",
+                "field_type": "numeric_input",
+                "label_text": "(e) Deduction or loss from Schedule K-1",
+                "line_number": "33",
+                "section_name": "Part III - Nonpassive Income and Loss",
+                "description": "Nonpassive deduction or loss from Schedule K-1",
+                "location_hint": "Line 33, row B, column (e)"
+            },
+            {
+                "field_name": "PartIII_Line33B_NonpassiveOtherIncome",
+                "field_type": "numeric_input",
+                "label_text": "(f) Other income from Schedule K-1",
+                "line_number": "33",
+                "section_name": "Part III - Nonpassive Income and Loss",
+                "description": "Other nonpassive income from Schedule K-1",
+                "location_hint": "Line 33, row B, column (f)"
+            },
+            {
+                "field_name": "PartIII_Line34a_TotalsPassiveLoss",
+                "field_type": "numeric_input",
+                "label_text": "Totals",
+                "line_number": "34a",
+                "section_name": "Part III - Passive Income and Loss",
+                "description": "Total passive deduction or loss allowed from line 33, column (c)",
+                "location_hint": "Line 34a, column (c)"
+            },
+            {
+                "field_name": "PartIII_Line34a_TotalsPassiveIncome",
+                "field_type": "numeric_input",
+                "label_text": "Totals",
+                "line_number": "34a",
+                "section_name": "Part III - Passive Income and Loss",
+                "description": "Total passive income from line 33, column (d)",
+                "location_hint": "Line 34a, column (d)"
+            },
+            {
+                "field_name": "PartIII_Line34a_TotalsNonpassiveDeductionLoss",
+                "field_type": "numeric_input",
+                "label_text": "Totals",
+                "line_number": "34a",
+                "section_name": "Part III - Nonpassive Income and Loss",
+                "description": "Total nonpassive deduction or loss from line 33, column (e)",
+                "location_hint": "Line 34a, column (e)"
+            },
+            {
+                "field_name": "PartIII_Line34a_TotalsNonpassiveOtherIncome",
+                "field_type": "numeric_input",
+                "label_text": "Totals",
+                "line_number": "34a",
+                "section_name": "Part III - Nonpassive Income and Loss",
+                "description": "Total other nonpassive income from line 33, column (f)",
+                "location_hint": "Line 34a, column (f)"
+            },
+            {
+                "field_name": "PartIII_Line34b_TotalsPassiveLoss",
+                "field_type": "numeric_input",
+                "label_text": "Totals",
+                "line_number": "34b",
+                "section_name": "Part III - Passive Income and Loss",
+                "description": "Total passive deduction or loss allowed from line 33, column (c) if reporting on multiple lines",
+                "location_hint": "Line 34b, column (c)"
+            },
+            {
+                "field_name": "PartIII_Line34b_TotalsPassiveIncome",
+                "field_type": "numeric_input",
+                "label_text": "Totals",
+                "line_number": "34b",
+                "section_name": "Part III - Passive Income and Loss",
+                "description": "Total passive income from line 33, column (d) if reporting on multiple lines",
+                "location_hint": "Line 34b, column (d)"
+            },
+            {
+                "field_name": "PartIII_Line34b_TotalsNonpassiveDeductionLoss",
+                "field_type": "numeric_input",
+                "label_text": "Totals",
+                "line_number": "34b",
+                "section_name": "Part III - Nonpassive Income and Loss",
+                "description": "Total nonpassive deduction or loss from line 33, column (e) if reporting on multiple lines",
+                "location_hint": "Line 34b, column (e)"
+            },
+            {
+                "field_name": "PartIII_Line34b_TotalsNonpassiveOtherIncome",
+                "field_type": "numeric_input",
+                "label_text": "Totals",
+                "line_number": "34b",
+                "section_name": "Part III - Nonpassive Income and Loss",
+                "description": "Total other nonpassive income from line 33, column (f) if reporting on multiple lines",
+                "location_hint": "Line 34b, column (f)"
+            },
+            {
+                "field_name": "PartIII_Line35_AddPassiveIncomeNonpassiveIncome",
+                "field_type": "numeric_input",
+                "label_text": "Add columns (d) and (f) of line 34a",
+                "line_number": "35",
+                "section_name": "Part III - Total estate and trust income or (loss)",
+                "description": "Total passive income and nonpassive other income from line 34a",
+                "location_hint": "Line 35, right side"
+            },
+            {
+                "field_name": "PartIII_Line36_AddPassiveLossNonpassiveLoss",
+                "field_type": "numeric_input",
+                "label_text": "Add columns (c) and (e) of line 34b",
+                "line_number": "36",
+                "section_name": "Part III - Total estate and trust income or (loss)",
+                "description": "Total passive loss allowed and nonpassive deduction or loss from line 34b",
+                "location_hint": "Line 36, right side"
+            },
+            {
+                "field_name": "PartIII_Line37_TotalEstateTrustIncomeLoss",
+                "field_type": "numeric_input",
+                "label_text": "Total estate and trust income or (loss). Combine lines 35 and 36",
+                "line_number": "37",
+                "section_name": "Part III - Total estate and trust income or (loss)",
+                "description": "Total income or loss from estates and trusts",
+                "location_hint": "Line 37, right side"
+            },
+            {
+                "field_name": "PartIV_Line38A_Name",
+                "field_type": "text_input",
+                "label_text": "(a) Name",
+                "line_number": "38",
+                "section_name": "Part IV - Income or Loss From Real Estate Mortgage Investment Conduits (REMICs)\u2014Residual Holder",
+                "description": "Name of REMIC",
+                "location_hint": "Line 38, row A, column (a)"
+            },
+            {
+                "field_name": "PartIV_Line38A_EmployerIDNumber",
+                "field_type": "numeric_input",
+                "label_text": "(b) Employer identification number",
+                "line_number": "38",
+                "section_name": "Part IV - Income or Loss From Real Estate Mortgage Investment Conduits (REMICs)\u2014Residual Holder",
+                "description": "Employer identification number (EIN)",
+                "location_hint": "Line 38, row A, column (b)"
+            },
+            {
+                "field_name": "PartIV_Line38A_ExcessInclusion",
+                "field_type": "numeric_input",
+                "label_text": "(c) Excess inclusion from Schedules Q, line 2c (see instructions)",
+                "line_number": "38",
+                "section_name": "Part IV - Income or Loss From Real Estate Mortgage Investment Conduits (REMICs)\u2014Residual Holder",
+                "description": "Excess inclusion from Schedules Q",
+                "location_hint": "Line 38, row A, column (c)"
+            },
+            {
+                "field_name": "PartIV_Line38A_TaxableIncomeLoss",
+                "field_type": "numeric_input",
+                "label_text": "(d) Taxable income (net loss) from Schedules Q, line 1b",
+                "line_number": "38",
+                "section_name": "Part IV - Income or Loss From Real Estate Mortgage Investment Conduits (REMICs)\u2014Residual Holder",
+                "description": "Taxable income or net loss from Schedules Q",
+                "location_hint": "Line 38, row A, column (d)"
+            },
+            {
+                "field_name": "PartIV_Line38A_Income",
+                "field_type": "numeric_input",
+                "label_text": "(e) Income from Schedules Q, line 3b",
+                "line_number": "38",
+                "section_name": "Part IV - Income or Loss From Real Estate Mortgage Investment Conduits (REMICs)\u2014Residual Holder",
+                "description": "Income from Schedules Q",
+                "location_hint": "Line 38, row A, column (e)"
+            },
+            {
+                "field_name": "PartIV_Line38B_Name",
+                "field_type": "text_input",
+                "label_text": "(a) Name",
+                "line_number": "38",
+                "section_name": "Part IV - Income or Loss From Real Estate Mortgage Investment Conduits (REMICs)\u2014Residual Holder",
+                "description": "Name of REMIC",
+                "location_hint": "Line 38, row B, column (a)"
+            },
+            {
+                "field_name": "PartIV_Line38B_EmployerIDNumber",
+                "field_type": "numeric_input",
+                "label_text": "(b) Employer identification number",
+                "line_number": "38",
+                "section_name": "Part IV - Income or Loss From Real Estate Mortgage Investment Conduits (REMICs)\u2014Residual Holder",
+                "description": "Employer identification number (EIN)",
+                "location_hint": "Line 38, row B, column (b)"
+            },
+            {
+                "field_name": "PartIV_Line38B_ExcessInclusion",
+                "field_type": "numeric_input",
+                "label_text": "(c) Excess inclusion from Schedules Q, line 2c (see instructions)",
+                "line_number": "38",
+                "section_name": "Part IV - Income or Loss From Real Estate Mortgage Investment Conduits (REMICs)\u2014Residual Holder",
+                "description": "Excess inclusion from Schedules Q",
+                "location_hint": "Line 38, row B, column (c)"
+            },
+            {
+                "field_name": "PartIV_Line38B_TaxableIncomeLoss",
+                "field_type": "numeric_input",
+                "label_text": "(d) Taxable income (net loss) from Schedules Q, line 1b",
+                "line_number": "38",
+                "section_name": "Part IV - Income or Loss From Real Estate Mortgage Investment Conduits (REMICs)\u2014Residual Holder",
+                "description": "Taxable income or net loss from Schedules Q",
+                "location_hint": "Line 38, row B, column (d)"
+            },
+            {
+                "field_name": "PartIV_Line38B_Income",
+                "field_type": "numeric_input",
+                "label_text": "(e) Income from Schedules Q, line 3b",
+                "line_number": "38",
+                "section_name": "Part IV - Income or Loss From Real Estate Mortgage Investment Conduits (REMICs)\u2014Residual Holder",
+                "description": "Income from Schedules Q",
+                "location_hint": "Line 38, row B, column (e)"
+            },
+            {
+                "field_name": "PartIV_Line39_CombineIncomeLoss",
+                "field_type": "numeric_input",
+                "label_text": "Combine columns (d) and (e) only. Enter the result here and include in the total on line 41 below",
+                "line_number": "39",
+                "section_name": "Part IV - Income or Loss From Real Estate Mortgage Investment Conduits (REMICs)\u2014Residual Holder",
+                "description": "Combine columns (d) and (e) from line 38",
+                "location_hint": "Line 39, right side"
+            },
+            {
+                "field_name": "PartV_Line40_NetFarmRentalIncomeLoss",
+                "field_type": "numeric_input",
+                "label_text": "Net farm rental income or (loss) from Form 4835. Also, complete line 42 below",
+                "line_number": "40",
+                "section_name": "Part V - Summary",
+                "description": "Net farm rental income or loss from Form 4835",
+                "location_hint": "Line 40, right side"
+            },
+            {
+                "field_name": "PartV_Line41_TotalIncomeLoss",
+                "field_type": "numeric_input",
+                "label_text": "Total income or (loss). Combine lines 26, 32, 37, 39, and 40. Enter the result here and on Schedule 1 (Form 1040), line 5",
+                "line_number": "41",
+                "section_name": "Part V - Summary",
+                "description": "Total income or loss from Parts I, II, III, IV, and line 40",
+                "location_hint": "Line 41, right side"
+            },
+            {
+                "field_name": "PartV_Line42_ReconciliationFarmingFishingIncome",
+                "field_type": "numeric_input",
+                "label_text": "Reconciliation of farming and fishing income. Enter your gross farming and fishing income reported on Form 4835, line 7; Schedule K-1 (Form 1065), box 14, code B; Schedule K-1 (Form 1120-S), box 17, code AN; and Schedule K-1 (Form 1041), box 14, code F. See instructions",
+                "line_number": "42",
+                "section_name": "Part V - Summary",
+                "description": "Gross farming and fishing income reconciliation",
+                "location_hint": "Line 42, right side"
+            },
+            {
+                "field_name": "PartV_Line43_ReconciliationRealEstateProfessionals",
+                "field_type": "numeric_input",
+                "label_text": "Reconciliation for real estate professionals. If you were a real estate professional (see instructions), enter the net income or (loss) you reported anywhere on Form 1040, Form 1040-SR, or Form 1040-NR from all rental real estate activities in which you materially participated under the passive activity loss rules",
+                "line_number": "43",
+                "section_name": "Part V - Summary",
+                "description": "Net income or loss for real estate professionals",
+                "location_hint": "Line 43, right side"
+            }
+        ]
+    }
+}
