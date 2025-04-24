@@ -1,0 +1,25 @@
+prefect
+pypdfium2
+Pillow
+opencv-python-headless
+pytesseract
+paddleocr
+paddlepaddle # Or paddlepaddle-gpu depending on environment
+easyocr
+deepdoctection # Requires careful installation, potentially with extras
+transformers[torch] # Or [tensorflow]
+spacy
+scikit-learn
+fillpdf
+PyPDFForm
+pymupdf
+# For potential data handling/schemas
+pydantic
+orjson
+# REMOVED PyPDF2, pdfplumber, pdf2image 
+
+# Dependencies for Gemini PDF Extraction
+google-generativeai
+pdf2image
+python-dotenv
+# Pillow is already listed above 

@@ -1,0 +1,22 @@
+{
+  "personal_info_taxpayer_name": "topmostSubform[0].Page1[0].f1_01[0]",
+  "personal_info_spouse_name": "topmostSubform[0].Page1[0].f1_02[0]",
+  "personal_info_taxpayer_ssn": "topmostSubform[0].Page1[0].f1_03[0]",
+  "personal_info_spouse_ssn": "topmostSubform[0].Page1[0].f1_04[0]",
+  "personal_info_address": "topmostSubform[0].Page1[0].Address_ReadOrder[0].f1_10[0]",
+  "personal_info_filing_status": "topmostSubform[0].Page1[0].FilingStatus_ReadOrder[0].c1_1[0]",
+  "income_line1z_wages": "topmostSubform[0].Page1[0].Line1-8c_ReadOrder[0].f1_25[0]",
+  "income_line2a_tax_exempt_interest": "topmostSubform[0].Page1[0].Line1-8c_ReadOrder[0].f1_27[0]",
+  "income_line2b_taxable_interest": "topmostSubform[0].Page1[0].Line1-8c_ReadOrder[0].f1_29[0]",
+  "income_line3a_qualified_dividends": "topmostSubform[0].Page1[0].Line1-8c_ReadOrder[0].f1_31[0]",
+  "income_line3b_ordinary_dividends": "topmostSubform[0].Page1[0].Line1-8c_ReadOrder[0].f1_33[0]",
+  "income_line4b_ira_taxable": "topmostSubform[0].Page1[0].Line4a-11_ReadOrder[0].f1_48[0]",
+  "income_line5b_pensions_taxable": "topmostSubform[0].Page1[0].Line4a-11_ReadOrder[0].f1_51[0]",
+  "income_line6b_ss_benefits_taxable": "topmostSubform[0].Page1[0].Line4a-11_ReadOrder[0].f1_57[0]",
+  "income_line7_capital_gain_loss": "topmostSubform[0].Page1[0].f1_65[0]",
+  "income_line8_schedule1_line10_income": "topmostSubform[0].Page1[0].f1_66[0]",
+  "income_line9_total_income": "topmostSubform[0].Page1[0].f1_67[0]",
+  "adjustments_line10_schedule1_line26_adjustments": "topmostSubform[0].Page1[0].f1_68[0]",
+  "adjustments_line11_adjusted_gross_income": "topmostSubform[0].Page1[0].f1_69[0]",
+  "digital_assets_question": "topmostSubform[0].Page1[0].c1_20[0]"
+}
